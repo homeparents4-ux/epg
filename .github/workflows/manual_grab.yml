@@ -1,6 +1,8 @@
 name: Manual EPG Grab
 on:
-  workflow_dispatch: # Agar bisa kamu klik tombol "Run" kapan saja
+  schedule:
+    - cron: '0 21 * * *' # Berjalan otomatis setiap jam 4 pagi WIB
+  workflow_dispatch:      # Agar bisa kamu klik tombol "Run" manual kapan saja
 
 jobs:
   grab:
@@ -17,7 +19,7 @@ jobs:
       - name: Install
         run: npm install
 
-- name: Grab EPG Indonesia
+      - name: Grab EPG Indonesia
         # Perintah ini menjalankan grabbing untuk dua situs sekaligus
         run: |
           npm run grab -- --site=indihometv.com
