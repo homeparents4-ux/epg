@@ -1,7 +1,7 @@
 name: Manual EPG Grab
 on:
   schedule:
-    - cron: '0 17 * * *' # Otomatis jam 00:00 WIB
+    - cron: '0 17 * * *' # Jam 00:00 WIB
   workflow_dispatch:
 
 jobs:
@@ -10,25 +10,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0 # Mengambil seluruh riwayat agar tidak error 128
 
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # WAJIB VERSI 20 KE ATAS
+          node-version: '20'
 
       - name: Install
         run: npm install
 
-      - name: Grab EPG Indonesia
-        # Kita jalankan Indihome dan Vidio sekaligus
+      - name: Grab EPG
+        # Gunakan '|| true' agar jika satu situs gagal, proses tetap lanjut ke simpan
         run: |
-          npm run grab -- --site=indihometv.com || echo "Indihome Gagal"
-       
-      - name: Simpan Hasil
+          npm run grab -- --site=indihometv.com || true
+          npm run grab -- --site=vidio.com || true
+
+      - name: Simpan Hasil Ke GitHub
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           mkdir -p guides
           git add guides/*.xml
-          git commit -m "Update EPG Indihome" || echo "Tidak ada perubahan file"
-          git push
+          # Perintah ini akan memaksa simpan meskipun ada kendala teknis sebelumnya
+          git commit -m "Update EPG Baru" || echo "Tidak ada perubahan"
+          git push origin HEAD --force
