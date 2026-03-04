@@ -19,17 +19,15 @@ jobs:
       - name: Install
         run: npm install
 
-      - name: Grab EPG
-        # Kita tambahkan --max-connections untuk meringankan beban koneksi
-        run: |
-          npm run grab -- --site=indihometv.com --max-connections=5 || echo "Indihome Gagal"
-          npm run grab -- --site=mncvision.id --max-connections=5 || echo "MNC Gagal"
+      - name: Grab Indihome
+        # Kita batasi pengambilan hanya untuk IndihomeTV agar lebih ringan
+        run: npm run grab -- --site=indihometv.com
 
       - name: Simpan Hasil
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           mkdir -p guides
-          git add guides/*.xml
-          git commit -m "Update EPG" || echo "Tidak ada perubahan file"
+          git add guides/indihometv.com.guide.xml
+          git commit -m "Update EPG Indihome" || echo "Tidak ada perubahan"
           git push
