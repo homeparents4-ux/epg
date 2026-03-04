@@ -28,12 +28,13 @@ jobs:
           npm run grab -- --site=indihometv.com || true
           npm run grab -- --site=vidio.com || true
 
-      - name: Simpan Hasil Ke GitHub
+      - name: Simpan Hasil
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           mkdir -p guides
+          # Kita pindahkan file hasil grab tadi ke dalam folder guides agar rapi
+          mv *.xml guides/ || echo "File sudah di folder yang benar"
           git add guides/*.xml
-          # Perintah ini akan memaksa simpan meskipun ada kendala teknis sebelumnya
-          git commit -m "Update EPG Baru" || echo "Tidak ada perubahan"
+          git commit -m "Update EPG Indonesia" || echo "Tidak ada perubahan"
           git push origin HEAD --force
