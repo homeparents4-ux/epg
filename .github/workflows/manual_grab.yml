@@ -20,10 +20,10 @@ jobs:
         run: npm install
 
       - name: Grab EPG
-        # Perintah '|| true' memastikan robot tidak berhenti jika satu site gagal
+        # Kita tambahkan --max-connections untuk meringankan beban koneksi
         run: |
-          npm run grab -- --site=indihometv.com || true
-          npm run grab -- --site=mncvision.id || true
+          npm run grab -- --site=indihometv.com --max-connections=5 || echo "Indihome Gagal"
+          npm run grab -- --site=mncvision.id --max-connections=5 || echo "MNC Gagal"
 
       - name: Simpan Hasil
         run: |
