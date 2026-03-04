@@ -1,0 +1,30 @@
+name: Manual EPG Grab
+on:
+  workflow_dispatch: # Agar bisa kamu klik tombol "Run" kapan saja
+
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install
+        run: npm install
+
+      - name: Grab Indonesia
+        # Kita mulai dengan satu contoh site dulu agar ringan, misalnya MNC Vision
+        run: npm run grab -- --site=mncvision.id
+
+      - name: Push Hasil
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add guides/
+          git commit -m "Update EPG Indonesia" || exit 0
+          git push
