@@ -20,7 +20,7 @@ jobs:
         run: npm install
 
       - name: Grab EPG
-        # Perintah ini akan tetap lanjut meskipun salah satu site gagal
+        # Perintah '|| true' memastikan robot tidak berhenti jika satu site gagal
         run: |
           npm run grab -- --site=indihometv.com || true
           npm run grab -- --site=mncvision.id || true
@@ -31,5 +31,5 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           mkdir -p guides
           git add guides/*.xml
-          git commit -m "Update EPG" || echo "Tidak ada perubahan data"
+          git commit -m "Update EPG" || echo "Tidak ada perubahan file"
           git push
