@@ -19,15 +19,15 @@ jobs:
       - name: Install
         run: npm install
 
-      - name: Grab Indihome
-        # Kita batasi pengambilan hanya untuk IndihomeTV agar lebih ringan
-        run: npm run grab -- --site=indihometv.com
+      - name: Grab Vidio
+        # Menggunakan vidio.com karena lebih stabil di server GitHub
+        run: npm run grab -- --site=vidio.com
 
       - name: Simpan Hasil
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           mkdir -p guides
-          git add guides/indihometv.com.guide.xml
-          git commit -m "Update EPG Indihome" || echo "Tidak ada perubahan"
+          git add guides/*.xml
+          git commit -m "Update EPG" || echo "Tidak ada perubahan"
           git push
