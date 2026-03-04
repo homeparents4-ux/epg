@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20'
-
+          cache: 'npm' # Menghapus sisa-sisa instalasi lama yang mungkin rusak
       - name: Install
         run: npm install
 
