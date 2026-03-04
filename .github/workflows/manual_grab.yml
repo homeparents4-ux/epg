@@ -1,8 +1,8 @@
 name: Manual EPG Grab
 on:
   schedule:
-    - cron: '0 21 * * *' # Berjalan otomatis setiap jam 4 pagi WIB
-  workflow_dispatch:      # Agar bisa kamu klik tombol "Run" manual kapan saja
+    - cron: '0 17 * * *' # Otomatis jam 12 malam WIB
+  workflow_dispatch:
 
 jobs:
   grab:
@@ -20,15 +20,19 @@ jobs:
         run: npm install
 
       - name: Grab EPG Indonesia
-        # Perintah ini menjalankan grabbing untuk dua situs sekaligus
         run: |
           npm run grab -- --site=indihometv.com
           npm run grab -- --site=mncvision.id
+
+      - name: Gabungkan File
+        # Menggabungkan semua hasil di folder guides menjadi satu file besar
+        run: |
+          npx epg-grabber merge --input=guides/*.xml --output=guides/semua_channel.xml
 
       - name: Push Hasil
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add guides/
-          git commit -m "Update EPG Indihome & MNC" || exit 0
+          git commit -m "Update EPG Jam 12 Malam" || exit 0
           git push
