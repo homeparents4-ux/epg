@@ -1,7 +1,7 @@
 name: Manual EPG Grab
 on:
   schedule:
-    - cron: '0 17 * * *' # Otomatis jam 12 malam WIB
+    - cron: '0 17 * * *' # Otomatis jam 00:00 WIB
   workflow_dispatch:
 
 jobs:
@@ -25,7 +25,6 @@ jobs:
           npm run grab -- --site=mncvision.id
 
       - name: Gabungkan File
-        # Menggabungkan semua hasil di folder guides menjadi satu file besar
         run: |
           npx epg-grabber merge --input=guides/*.xml --output=guides/semua_channel.xml
 
@@ -34,5 +33,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add guides/
-          git commit -m "Update EPG Jam 12 Malam" || exit 0
+          git commit -m "Update EPG Indihome & MNC Jam 12 Malam" || exit 0
           git push
