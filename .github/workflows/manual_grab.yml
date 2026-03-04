@@ -1,7 +1,7 @@
 name: Manual EPG Grab
 on:
   schedule:
-    - cron: '0 17 * * *' # Jam 00:00 WIB
+    - cron: '0 17 * * *' # Otomatis jam 00:00 WIB
   workflow_dispatch:
 
 jobs:
@@ -14,14 +14,16 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20' # Menggunakan versi 20 agar tidak error "File is not defined"
 
       - name: Install
         run: npm install
 
-      - name: Grab Vidio
-        # Menggunakan vidio.com karena lebih stabil di server GitHub
-        run: npm run grab -- --site=vidio.com
+      - name: Grab EPG
+        # Menjalankan IndihomeTV dan Vidio (sebagai cadangan)
+        run: |
+          npm run grab -- --site=indihometv.com || echo "Indihome Gagal"
+          npm run grab -- --site=vidio.com || echo "Vidio Gagal"
 
       - name: Simpan Hasil
         run: |
@@ -29,5 +31,5 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           mkdir -p guides
           git add guides/*.xml
-          git commit -m "Update EPG" || echo "Tidak ada perubahan"
+          git commit -m "Update EPG Indihome & Vidio" || echo "Tidak ada perubahan file"
           git push
