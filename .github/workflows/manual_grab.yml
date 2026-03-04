@@ -14,22 +14,21 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '20' # Menggunakan versi 20 agar tidak error "File is not defined"
+          node-version: '20' # WAJIB VERSI 20 KE ATAS
 
       - name: Install
         run: npm install
 
-      - name: Grab EPG
-        # Menjalankan IndihomeTV dan Vidio (sebagai cadangan)
+      - name: Grab EPG Indonesia
+        # Kita jalankan Indihome dan Vidio sekaligus
         run: |
           npm run grab -- --site=indihometv.com || echo "Indihome Gagal"
-          npm run grab -- --site=vidio.com || echo "Vidio Gagal"
-
+       
       - name: Simpan Hasil
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           mkdir -p guides
           git add guides/*.xml
-          git commit -m "Update EPG Indihome & Vidio" || echo "Tidak ada perubahan file"
+          git commit -m "Update EPG Indihome" || echo "Tidak ada perubahan file"
           git push
