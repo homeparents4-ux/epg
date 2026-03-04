@@ -17,14 +17,16 @@ jobs:
       - name: Install
         run: npm install
 
-      - name: Grab Indonesia
-        # Kita mulai dengan satu contoh site dulu agar ringan, misalnya MNC Vision
-        run: npm run grab -- --site=mncvision.id
+- name: Grab EPG Indonesia
+        # Perintah ini menjalankan grabbing untuk dua situs sekaligus
+        run: |
+          npm run grab -- --site=indihometv.com
+          npm run grab -- --site=mncvision.id
 
       - name: Push Hasil
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add guides/
-          git commit -m "Update EPG Indonesia" || exit 0
+          git commit -m "Update EPG Indihome & MNC" || exit 0
           git push
