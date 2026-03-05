@@ -1,37 +1,31 @@
 name: Manual EPG Grab
 on:
-  schedule:
-    - cron: '0 17 * * *' # Jam 00:00 WIB
   workflow_dispatch:
 
 jobs:
   grab:
     runs-on: ubuntu-latest
-steps:
-      - name: Checkout Repository
+    steps:
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm' # Menghapus sisa-sisa instalasi lama yang mungkin rusak
-      - name: Install
+          node-version: '20' # WAJIB 20 untuk memperbaiki "ReferenceError: File is not defined"
+
+      - name: Install Dependencies
         run: npm install
 
       - name: Grab EPG
-        # Gunakan '|| true' agar jika satu situs gagal, proses tetap lanjut ke simpan
         run: |
-          npm run grab -- --site=indihometv.com || true
-          npm run grab -- --site=vidio.com || true
+          # Grab Indihome dan Vidio sekaligus
+          npm run grab -- --site=indihometv.com --site=vidio.com --max-connections=1
 
-      - name: Config Git and Push
+      - name: Commit and Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add guides/guide.xml
-          # Perintah || true di bawah ini agar workflow tidak error jika tidak ada data baru
-          git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M')" || true
+          git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M')" || exit 0
           git push origin master
