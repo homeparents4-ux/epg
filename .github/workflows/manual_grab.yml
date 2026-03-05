@@ -7,12 +7,11 @@ on:
 jobs:
   grab:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
         with:
-          persist-credentials: true
-          fetch-depth: 0 # Mengambil seluruh riwayat agar tidak error 128
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -28,13 +27,10 @@ jobs:
           npm run grab -- --site=indihometv.com || true
           npm run grab -- --site=vidio.com || true
 
-      - name: Simpan Hasil
+      - name: Commit and Push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          mkdir -p guides
-          # Kita pindahkan file hasil grab tadi ke dalam folder guides agar rapi
-          mv *.xml guides/ || echo "File sudah di folder yang benar"
-          git add guides/*.xml
-          git commit -m "Update EPG Indonesia" || echo "Tidak ada perubahan"
-          git push origin HEAD --force
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add guides/guide.xml
+          git commit -m "Update EPG Guide" || echo "No changes to commit"
+          git push origin master
