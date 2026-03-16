@@ -1,10 +1,9 @@
-name: Auto EPG Grabber
+name: Auto EPG Grabber Final
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Tombol Manual
   schedule:
-    # Berjalan setiap 6 jam
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *' # Otomatis setiap 6 jam
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -13,6 +12,7 @@ concurrency:
 jobs:
   grab:
     runs-on: ubuntu-latest
+    # Memberikan izin tulis agar bot bisa update file di repo Fork
     permissions:
       contents: write
     
@@ -33,30 +33,26 @@ jobs:
 
       - name: Grab EPG Data
         run: |
-          # Grab Vidio.com
-          echo "Memulai grab Vidio..."
+          echo "Mengambil data dari Vidio..."
           npm run grab -- --site=vidio.com
           
-          # Jeda 15 detik agar tidak dianggap spam/bot oleh server
-          echo "Menunggu 15 detik..."
+          echo "Jeda 15 detik agar tidak diblokir..."
           sleep 15
           
-          # Grab Indihometv.com
-          echo "Memulai grab Indihome..."
+          echo "Mengambil data dari Indihome..."
           npm run grab -- --site=indihometv.com
-          
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Tambahkan semua file xml di folder guides
+          # Paksa Git untuk memantau semua file XML di folder guides
           git add guides/*.xml
           
-          # Cek perubahan
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M') [skip ci]"
-            git push origin master
-          else
-            echo "Tidak ada perubahan data yang dideteksi."
-          fi
+          # Menggunakan --allow-empty agar tanggal folder PASTI berubah 
+          # meskipun data yang di-grab sama dengan data lama.
+          git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M') [skip ci]" --allow-empty
+          
+          # Push ke branch master
+          git push origin master
