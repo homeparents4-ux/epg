@@ -28,19 +28,25 @@ jobs:
 
       - name: Grab EPG Data
         run: |
-          # 1. Pastikan folder guides ada dan kosongkan file lama
+          # 1. Pastikan folder guides ada
           mkdir -p guides
-          rm -f guides/guide.xml
           
-          # 2. Buat file konfigurasi sementara agar grabber menggabungkan site secara rapi
-          # Cara ini akan menghasilkan 1 file XML yang valid (tidak ada junk)
-          echo '{ "sites": [ { "site": "vidio.com" }, { "site": "indihometv.com" } ] }' > custom.config.json
+          # 2. Grab Vidio (disimpan ke file sementara)
+          echo "Memulai Grab Vidio..."
+          npm run grab -- --site=vidio.com --output=guides/vidio.xml
           
-          # 3. Jalankan grabber menggunakan config tersebut
-          echo "Memulai Grab Gabungan (Vidio & Indihome)..."
-          npm run grab -- --config=custom.config.json --output=guides/guide.xml
+          # 3. Grab Indihome (disimpan ke file sementara)
+          echo "Memulai Grab Indihome..."
+          npm run grab -- --site=indihometv.com --output=guides/indihome.xml
           
-          # 4. Tambahkan baris kosong di paling bawah agar Git deteksi perubahan
+          # 4. PROSES PENGGABUNGAN (Anti-Junk / Menghilangkan Error XML)
+          # Ambil semua isi Vidio kecuali baris paling akhir (menghapus </tv>)
+          head -n -1 guides/vidio.xml > guides/guide.xml
+          
+          # Ambil isi Indihome, buang 2 baris teratas (<?xml dan <tv), lalu tempelkan sisanya
+          sed '1,2d' guides/indihome.xml >> guides/guide.xml
+          
+          # 5. Tambahkan baris kosong agar Git deteksi perubahan
           echo " " >> guides/guide.xml
 
       - name: Commit and Push Changes
@@ -50,7 +56,7 @@ jobs:
           
           echo "Terakhir dijalankan: $(date)" > guides/last_run.txt
           
-          # Tambahkan file utama yang sudah bersih
+          # Kita hanya simpan file utama dan log waktu
           git add guides/guide.xml guides/last_run.txt
           
           git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M') [skip ci]" --allow-empty
