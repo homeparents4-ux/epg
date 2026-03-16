@@ -28,23 +28,19 @@ jobs:
 
       - name: Grab EPG Data
         run: |
-          # 1. Pastikan folder guides ada
+          # 1. Pastikan folder guides ada dan kosongkan file lama
           mkdir -p guides
+          rm -f guides/guide.xml
           
-          # 2. Grab Vidio (simpan sementara ke vidio.xml)
-          echo "Memulai Grab Vidio..."
-          npm run grab -- --site=vidio.com --output=guides/vidio.xml || echo "Vidio failed, skipping..."
+          # 2. Buat file konfigurasi sementara agar grabber menggabungkan site secara rapi
+          # Cara ini akan menghasilkan 1 file XML yang valid (tidak ada junk)
+          echo '{ "sites": [ { "site": "vidio.com" }, { "site": "indihometv.com" } ] }' > custom.config.json
           
-          # 3. Grab Indihome (simpan sementara ke indihome.xml)
-          echo "Memulai Grab Indihome..."
-          npm run grab -- --site=indihometv.com --output=guides/indihome.xml || echo "Indihome failed, skipping..."
+          # 3. Jalankan grabber menggunakan config tersebut
+          echo "Memulai Grab Gabungan (Vidio & Indihome)..."
+          npm run grab -- --config=custom.config.json --output=guides/guide.xml
           
-          # 4. Gabungkan hasil grab (Vidio + Indihome) ke dalam satu file guide.xml
-          # Perintah ini akan mengambil isi kedua file dan memasukkannya ke guide.xml
-          echo "Menggabungkan file..."
-          cat guides/vidio.xml guides/indihome.xml > guides/guide.xml 2>/dev/null || true
-          
-          # Tambahkan baris kosong agar Git deteksi perubahan
+          # 4. Tambahkan baris kosong di paling bawah agar Git deteksi perubahan
           echo " " >> guides/guide.xml
 
       - name: Commit and Push Changes
@@ -54,7 +50,7 @@ jobs:
           
           echo "Terakhir dijalankan: $(date)" > guides/last_run.txt
           
-          # Kita hanya add guide.xml dan last_run.txt (file vidio.xml & indihome.xml tidak perlu masuk repo)
+          # Tambahkan file utama yang sudah bersih
           git add guides/guide.xml guides/last_run.txt
           
           git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M') [skip ci]" --allow-empty
