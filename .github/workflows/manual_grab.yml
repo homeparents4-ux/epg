@@ -2,20 +2,31 @@ name: Manual EPG Grab
 on:
   workflow_dispatch:
 
+# Mencegah penumpukan antrean jika Anda mengklik 'Run' berkali-kali
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   grab:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Mempercepat checkout dengan hanya mengambil commit terakhir
+          fetch-depth: 1
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Agar tidak ada error "ReferenceError: File is not defined"
+          node-version: '20'
+          # OTOMATIS: Cache npm dependencies agar instalasi berikutnya sangat cepat
+          cache: 'npm'
 
       - name: Install Dependencies
-        run: npm install
+        # Menggunakan 'ci' lebih cepat dan bersih daripada 'install' untuk automation
+        run: npm ci
 
       - name: Grab EPG
         run: |
@@ -25,7 +36,12 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add guides/guide.xml
-          # || exit 0 agar tetap sukses (hijau) meskipun tidak ada perubahan data
-          git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M')" || exit 0
-          git push origin master
+          
+          # Hanya commit jika ada perubahan di file guide.xml
+          if [ -n "$(git status --porcelain guides/guide.xml)" ]; then
+            git add guides/guide.xml
+            git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M')"
+            git push origin master
+          else
+            echo "No changes in EPG, skipping commit."
+          fi
