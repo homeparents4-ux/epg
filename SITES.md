@@ -189,7 +189,7 @@
     <tr><td><a href="sites/tv.movistar.com.pe">tv.movistar.com.pe</a></td><td align="right">262</td><td align="right">31</td><td align="center">🟢</td><td></td></tr>
     <tr><td><a href="sites/tv.nu">tv.nu</a></td><td align="right">199</td><td align="right">180</td><td align="center">🟢</td><td></td></tr>
     <tr><td><a href="sites/tv.post.lu">tv.post.lu</a></td><td align="right">332</td><td align="right">241</td><td align="center">🟢</td><td></td></tr>
-    <tr><td><a href="sites/tv.sfr.fr">tv.sfr.fr</a></td><td align="right">489</td><td align="right">438</td><td align="center">🟢</td><td>https://github.com/iptv-org/epg/issues/2998</td></tr>
+    <tr><td><a href="sites/tv.sfr.fr">tv.sfr.fr</a></td><td align="right">489</td><td align="right">438</td><td align="center">🟢</td><td></td></tr>
     <tr><td><a href="sites/tv.trueid.net">tv.trueid.net</a></td><td align="right">246</td><td align="right">35</td><td align="center">🟢</td><td></td></tr>
     <tr><td><a href="sites/tv.yandex.ru">tv.yandex.ru</a></td><td align="right">97</td><td align="right">66</td><td align="center">🔴</td><td>https://github.com/iptv-org/epg/issues/2803</td></tr>
     <tr><td><a href="sites/tv24.co.uk">tv24.co.uk</a></td><td align="right">1072</td><td align="right">38</td><td align="center">🟢</td><td></td></tr>
@@ -214,7 +214,7 @@
     <tr><td><a href="sites/tvmustra.hu">tvmustra.hu</a></td><td align="right">189</td><td align="right">0</td><td align="center">🟢</td><td></td></tr>
     <tr><td><a href="sites/tvpassport.com">tvpassport.com</a></td><td align="right">19287</td><td align="right">2496</td><td align="center">🟢</td><td></td></tr>
     <tr><td><a href="sites/tvplus.com.tr">tvplus.com.tr</a></td><td align="right">150</td><td align="right">144</td><td align="center">🟢</td><td>https://github.com/iptv-org/epg/issues/2983</td></tr>
-    <tr><td><a href="sites/tvprofil.com">tvprofil.com</a></td><td align="right">9091</td><td align="right">408</td><td align="center">🟢</td><td></td></tr>
+    <tr><td><a href="sites/tvprofil.com">tvprofil.com</a></td><td align="right">9091</td><td align="right">408</td><td align="center">🟢</td><td>https://github.com/iptv-org/epg/issues/3032</td></tr>
     <tr><td><a href="sites/tvtv.us">tvtv.us</a></td><td align="right">2299</td><td align="right">2230</td><td align="center">🟢</td><td></td></tr>
     <tr><td><a href="sites/v3.myafn.dodmedia.osd.mil">v3.myafn.dodmedia.osd.mil</a></td><td align="right">8</td><td align="right">8</td><td align="center">🟢</td><td></td></tr>
     <tr><td><a href="sites/vantagetv.ee">vantagetv.ee</a></td><td align="right">3</td><td align="right">1</td><td align="center">🟢</td><td></td></tr>
