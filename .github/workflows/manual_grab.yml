@@ -1,8 +1,13 @@
-name: Manual EPG Grab
-on:
-  workflow_dispatch:
+name: Auto EPG Grabber
 
-# Mencegah penumpukan antrean jika Anda mengklik 'Run' berkali-kali
+on:
+  workflow_dispatch: # Untuk menjalankan manual lewat tombol
+  schedule:
+    # Menjalankan otomatis setiap 6 jam (00:00, 06:00, 12:00, 18:00 UTC)
+    # Di WIB (Indonesia) ini sekitar jam 07:00, 13:00, 19:00, 01:00
+    - cron: '0 */6 * * *'
+
+# Mencegah penumpukan antrean jika workflow berjalan bersamaan
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -11,37 +16,34 @@ jobs:
   grab:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          # Mempercepat checkout dengan hanya mengambil commit terakhir
-          fetch-depth: 1
+          fetch-depth: 1 # Mengambil data terbaru saja agar enteng
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          # OTOMATIS: Cache npm dependencies agar instalasi berikutnya sangat cepat
-          cache: 'npm'
+          cache: 'npm' # Mengaktifkan caching otomatis untuk node_modules
 
       - name: Install Dependencies
-        # Menggunakan 'ci' lebih cepat dan bersih daripada 'install' untuk automation
-        run: npm ci
+        run: npm ci # Lebih cepat dan stabil untuk environment CI
 
-      - name: Grab EPG
+      - name: Grab EPG Data
         run: |
           npm run grab -- --site=indihometv.com --site=vidio.com
 
-      - name: Commit and Push
+      - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Hanya commit jika ada perubahan di file guide.xml
+          # Cek apakah ada perubahan pada file guide.xml sebelum commit
           if [ -n "$(git status --porcelain guides/guide.xml)" ]; then
             git add guides/guide.xml
-            git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M')"
+            git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M') [skip ci]"
             git push origin master
           else
-            echo "No changes in EPG, skipping commit."
+            echo "Tidak ada perubahan pada EPG. Lewati langkah commit."
           fi
