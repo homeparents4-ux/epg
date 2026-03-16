@@ -28,22 +28,23 @@ jobs:
 
       - name: Grab EPG Data
         run: |
-          # 1. Hapus file lama agar benar-benar fresh
-          rm -f guides/guide.xml
+          # 1. Pastikan folder guides ada
+          mkdir -p guides
           
-          # 2. Grab VIDIO dulu (membuat file baru)
+          # 2. Grab Vidio (simpan sementara ke vidio.xml)
           echo "Memulai Grab Vidio..."
-          npm run grab -- --site=vidio.com --output=guides/guide.xml
+          npm run grab -- --site=vidio.com --output=guides/vidio.xml || echo "Vidio failed, skipping..."
           
-          echo "Jeda 15 detik..."
-          sleep 15
-          
-          # 3. Grab INDIHOME dan tambahkan (APPEND) ke file yang sama
-          # Menggunakan flag --append agar data Vidio tidak hilang tertimpa Indihome
+          # 3. Grab Indihome (simpan sementara ke indihome.xml)
           echo "Memulai Grab Indihome..."
-          npm run grab -- --site=indihometv.com --output=guides/guide.xml --append
+          npm run grab -- --site=indihometv.com --output=guides/indihome.xml || echo "Indihome failed, skipping..."
           
-          # 4. Tambahkan spasi kosong agar Git deteksi perubahan
+          # 4. Gabungkan hasil grab (Vidio + Indihome) ke dalam satu file guide.xml
+          # Perintah ini akan mengambil isi kedua file dan memasukkannya ke guide.xml
+          echo "Menggabungkan file..."
+          cat guides/vidio.xml guides/indihome.xml > guides/guide.xml 2>/dev/null || true
+          
+          # Tambahkan baris kosong agar Git deteksi perubahan
           echo " " >> guides/guide.xml
 
       - name: Commit and Push Changes
@@ -53,6 +54,7 @@ jobs:
           
           echo "Terakhir dijalankan: $(date)" > guides/last_run.txt
           
+          # Kita hanya add guide.xml dan last_run.txt (file vidio.xml & indihome.xml tidak perlu masuk repo)
           git add guides/guide.xml guides/last_run.txt
           
           git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M') [skip ci]" --allow-empty
