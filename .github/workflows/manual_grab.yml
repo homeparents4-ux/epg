@@ -1,18 +1,13 @@
 name: Auto EPG Grabber Final
 
 on:
-  workflow_dispatch: # Tombol Manual
+  workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *' # Otomatis setiap 6 jam
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+    - cron: '0 */6 * * *'
 
 jobs:
   grab:
     runs-on: ubuntu-latest
-    # Memberikan izin tulis agar bot bisa update file di repo Fork
     permissions:
       contents: write
     
@@ -33,27 +28,32 @@ jobs:
 
       - name: Grab EPG Data
         run: |
-          echo "Mengambil data dari Vidio..."
-          npm run grab -- --site=vidio.com
+          # 1. Hapus file lama agar benar-benar fresh
+          rm -f guides/guide.xml
           
-          echo "Jeda 15 detik agar tidak diblokir..."
+          # 2. Grab VIDIO dulu (membuat file baru)
+          echo "Memulai Grab Vidio..."
+          npm run grab -- --site=vidio.com --output=guides/guide.xml
+          
+          echo "Jeda 15 detik..."
           sleep 15
           
-          echo "Mengambil data dari Indihome..."
-          npm run grab -- --site=indihometv.com
+          # 3. Grab INDIHOME dan tambahkan (APPEND) ke file yang sama
+          # Menggunakan flag --append agar data Vidio tidak hilang tertimpa Indihome
+          echo "Memulai Grab Indihome..."
+          npm run grab -- --site=indihometv.com --output=guides/guide.xml --append
+          
+          # 4. Tambahkan spasi kosong agar Git deteksi perubahan
+          echo " " >> guides/guide.xml
 
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 1. Paksa tambah semua perubahan
-          git add .
+          echo "Terakhir dijalankan: $(date)" > guides/last_run.txt
           
-          # 2. Buat file dummy kecil agar tanggal folder PASTI berubah
-          echo "$(date)" > guides/last_run.txt
-          git add guides/last_run.txt
+          git add guides/guide.xml guides/last_run.txt
           
-          # 3. Commit dan Push
           git commit -m "Update EPG: $(date +'%Y-%m-%d %H:%M') [skip ci]" --allow-empty
           git push origin master
