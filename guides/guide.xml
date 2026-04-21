@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?><tv date="20260421">
 <channel id="SCTV.id@SD"><display-name>SCTV</display-name><icon src="https://i.imgur.com/EMmOvnQ.png"/><url>https://vidio.com</url></channel>
-<channel id="Indosiar.id@SD"><display-name>Indosiar</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/960px-Indosiar_2015.svg.png"/><url>https://vidio.com</url></channel>
-<channel id="TransTV.id@SD"><display-name>TRANS TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Trans_TV_2013.svg/960px-Trans_TV_2013.svg.png"/><url>https://vidio.com</url></channel>
-<channel id="tvOne.id@SD"><display-name>TVOne</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/960px-TvOne_2023.svg.png"/><url>https://vidio.com</url></channel>
-<channel id="beINSports3.qa@Indonesia"><display-name>Bein 3</display-name><icon src="https://i.imgur.com/UYSMao3.png"/><url>https://vidio.com</url></channel>
-<channel id="HipHipHoree.id@SD"><display-name>Hip Hip Horee!</display-name><icon src="https://i.imgur.com/jEFjczI.png"/><url>https://vidio.com</url></channel>
-<channel id="UChannel.id@SD"><display-name>U-Channel TV</display-name><icon src="https://i.imgur.com/qxkb0cy.png"/><url>https://vidio.com</url></channel>
-<channel id="beINSports1.qa@Indonesia"><display-name>Bein 1</display-name><icon src="https://i.imgur.com/Vtk2cGI.png"/><url>https://vidio.com</url></channel>
-<channel id="MakkahTV.sa@SD"><display-name>Makkah TV</display-name><icon src="https://i.imgur.com/PRPcOi0.png"/><url>https://vidio.com</url></channel>
-<channel id="ChampionsTV3.id@SD"><display-name>CTV 3</display-name><icon src="https://i.imgur.com/xVwVIj6.png"/><url>https://vidio.com</url></channel>
-<channel id="ANTV.id@SD"><display-name>ANTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/960px-Antv_logo.svg.png"/><url>https://vidio.com</url></channel>
-<channel id="BTV.id@SD"><display-name>BTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png"/><url>https://vidio.com</url></channel>
-<channel id="ArirangWorld.kr@SD"><display-name>Arirang</display-name><icon src="https://i.imgur.com/5Aoithj.png"/><url>https://vidio.com</url></channel>
+<channel id="DaystarTV.us@SD"><display-name>Daystar TV</display-name><icon src="https://i.imgur.com/IjzCv8f.png"/><url>https://vidio.com</url></channel>
+<channel id="BeritaSatuEnglish.id@SD"><display-name>BeritaSatu</display-name><icon src="https://img2.beritasatu.com/cache/jakartaglobe/480x310-3/2015/01/Logo_BeritaSatuEnglish_red.png"/><url>https://vidio.com</url></channel>
+<channel id="18190"><display-name>Champions Golf 2</display-name><url>https://vidio.com</url></channel>
+<channel id="18189"><display-name>Champions Golf 1</display-name><url>https://vidio.com</url></channel>
+<channel id="18105"><display-name>GGS TV</display-name><url>https://vidio.com</url></channel>
+<channel id="17875"><display-name>Bein 2</display-name><url>https://vidio.com</url></channel>
+<channel id="TV5MondeAsia.fr@SD"><display-name>TV5Monde</display-name><icon src="https://i.imgur.com/FRsRXRR.png"/><url>https://vidio.com</url></channel>
+<channel id="SPOTV2.id@SD"><display-name>SPOTV 2</display-name><icon src="https://i.imgur.com/YD8fbTH.png"/><url>https://vidio.com</url></channel>
+<channel id="SPOTV.id@SD"><display-name>SPOTV</display-name><icon src="https://i.imgur.com/HaoVsm5.png"/><url>https://vidio.com</url></channel>
+<channel id="AfricanewsEnglish.fr@SD"><display-name>AFRICANEWS TV</display-name><icon src="https://a.jsrdn.com/hls/22886/africanews/extras/1080_logo.png"/><url>https://vidio.com</url></channel>
 <channel id="TawafTV.id@SD"><display-name>Tawaf TV</display-name><url>https://vidio.com</url></channel>
 <channel id="ElshintaTV.id@SD"><display-name>Elshinta TV</display-name><icon src="https://i.imgur.com/x5uoy2H.png"/><url>https://vidio.com</url></channel>
 <channel id="JPMTV.id@SD"><display-name>jawaposTV</display-name><icon src="https://i.imgur.com/FM6WN4S.png"/><url>https://vidio.com</url></channel>
@@ -27,35 +25,37 @@
 <channel id="NusantaraTV.id@SD"><display-name>Nusantara TV</display-name><icon src="https://i.imgur.com/viun5hj.png"/><url>https://vidio.com</url></channel>
 <channel id="MagnaChannel.id@SD"><display-name>Magna TV</display-name><icon src="https://i.imgur.com/tfJo0SO.png"/><url>https://vidio.com</url></channel>
 <channel id="ABCAustralia.au@SD"><display-name>ABC Australia</display-name><icon src="https://i.imgur.com/qQ33TVM.png"/><url>https://vidio.com</url></channel>
+<channel id="HipHipHoree.id@SD"><display-name>Hip Hip Horee!</display-name><icon src="https://i.imgur.com/jEFjczI.png"/><url>https://vidio.com</url></channel>
+<channel id="UChannel.id@SD"><display-name>U-Channel TV</display-name><icon src="https://i.imgur.com/qxkb0cy.png"/><url>https://vidio.com</url></channel>
+<channel id="MakkahTV.sa@SD"><display-name>Makkah TV</display-name><icon src="https://i.imgur.com/PRPcOi0.png"/><url>https://vidio.com</url></channel>
+<channel id="ChampionsTV3.id@SD"><display-name>CTV 3</display-name><icon src="https://i.imgur.com/xVwVIj6.png"/><url>https://vidio.com</url></channel>
+<channel id="ArirangWorld.kr@SD"><display-name>Arirang</display-name><icon src="https://i.imgur.com/5Aoithj.png"/><url>https://vidio.com</url></channel>
 <channel id="NBATV.us@SD"><display-name>NBA TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png"/><url>https://vidio.com</url></channel>
-<channel id="JakTV.id@SD"><display-name>Jaktv</display-name><icon src="https://i.imgur.com/xyLLLOi.png"/><url>https://vidio.com</url></channel>
 <channel id="ChampionsTV2.id@SD"><display-name>CTV 2</display-name><icon src="https://i.imgur.com/oYUUKra.png"/><url>https://vidio.com</url></channel>
 <channel id="ChampionsTV1.id@SD"><display-name>CTV 1</display-name><icon src="https://i.imgur.com/ctwmSHa.png"/><url>https://vidio.com</url></channel>
-<channel id="Moji.id@SD"><display-name>Moji</display-name><icon src="https://i.imgur.com/mM9zapJ.png"/><url>https://vidio.com</url></channel>
-<channel id="MetroTV.id@SD"><display-name>Metro TV</display-name><icon src="https://i.imgur.com/QnU70NI.png"/><url>https://vidio.com</url></channel>
-<channel id="DW.de@English"><display-name>DW English</display-name><icon src="https://i.imgur.com/8MRNFb9.png"/><url>https://vidio.com</url></channel>
 <channel id="ZooMoo.sg@SD"><display-name>Zoomoo</display-name><icon src="https://i.imgur.com/ciTJrnl.png"/><url>https://vidio.com</url></channel>
 <channel id="DAAITV.id@SD"><display-name>DAAI TV</display-name><icon src="https://i.imgur.com/YC7JCHo.png"/><url>https://vidio.com</url></channel>
-<channel id="RajawaliTV.id@SD"><display-name>RTV</display-name><icon src="https://i.imgur.com/dlsv1sl.png"/><url>https://vidio.com</url></channel>
 <channel id="TVRI.id@HD"><display-name>TVRI</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png"/><url>https://vidio.com</url></channel>
+<channel id="EuronewsEnglish.fr@SD"><display-name>Euro News</display-name><icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png"/><url>https://vidio.com</url></channel>
 <channel id="CNA.sg@SD"><display-name>News Asia</display-name><icon src="https://i.imgur.com/awIDugE.png"/><url>https://vidio.com</url></channel>
 <channel id="AlJazeera.qa@English"><display-name>Aljazeera</display-name><icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/><url>https://vidio.com</url></channel>
 <channel id="Horee.id@SD"><display-name>Horee</display-name><icon src="https://i.imgur.com/S4aoHg8.png"/><url>https://vidio.com</url></channel>
 <channel id="tvNAsia.hk@SD"><display-name>TVN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/960px-Logo_tvN.svg.png"/><url>https://vidio.com</url></channel>
-<channel id="EuronewsEnglish.fr@SD"><display-name>Euro News</display-name><icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png"/><url>https://vidio.com</url></channel>
-<channel id="Trans7.id@SD"><display-name>Trans7</display-name><icon src="https://i.imgur.com/fAbGImS.png"/><url>https://vidio.com</url></channel>
+<channel id="beINSports3.qa@Indonesia"><display-name>Bein 3</display-name><icon src="https://i.imgur.com/UYSMao3.png"/><url>https://vidio.com</url></channel>
+<channel id="beINSports1.qa@Indonesia"><display-name>Bein 1</display-name><icon src="https://i.imgur.com/Vtk2cGI.png"/><url>https://vidio.com</url></channel>
+<channel id="BTV.id@SD"><display-name>BTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png"/><url>https://vidio.com</url></channel>
+<channel id="JakTV.id@SD"><display-name>Jaktv</display-name><icon src="https://i.imgur.com/xyLLLOi.png"/><url>https://vidio.com</url></channel>
+<channel id="DW.de@English"><display-name>DW English</display-name><icon src="https://i.imgur.com/8MRNFb9.png"/><url>https://vidio.com</url></channel>
+<channel id="RajawaliTV.id@SD"><display-name>RTV</display-name><icon src="https://i.imgur.com/dlsv1sl.png"/><url>https://vidio.com</url></channel>
 <channel id="NET.id@SD"><display-name>MDTV</display-name><icon src="https://i.imgur.com/RPT8O12.png"/><url>https://vidio.com</url></channel>
 <channel id="KompasTV.id@SD"><display-name>Kompas TV</display-name><icon src="https://i.imgur.com/bD6UHeZ.png"/><url>https://vidio.com</url></channel>
-<channel id="18105"><display-name>GGS TV</display-name><url>https://vidio.com</url></channel>
-<channel id="17875"><display-name>Bein 2</display-name><url>https://vidio.com</url></channel>
-<channel id="TV5MondeAsia.fr@SD"><display-name>TV5Monde</display-name><icon src="https://i.imgur.com/FRsRXRR.png"/><url>https://vidio.com</url></channel>
-<channel id="DaystarTV.us@SD"><display-name>Daystar TV</display-name><icon src="https://i.imgur.com/IjzCv8f.png"/><url>https://vidio.com</url></channel>
-<channel id="18189"><display-name>Champions Golf 1</display-name><url>https://vidio.com</url></channel>
-<channel id="SPOTV2.id@SD"><display-name>SPOTV 2</display-name><icon src="https://i.imgur.com/YD8fbTH.png"/><url>https://vidio.com</url></channel>
-<channel id="BeritaSatuEnglish.id@SD"><display-name>BeritaSatu</display-name><icon src="https://img2.beritasatu.com/cache/jakartaglobe/480x310-3/2015/01/Logo_BeritaSatuEnglish_red.png"/><url>https://vidio.com</url></channel>
-<channel id="SPOTV.id@SD"><display-name>SPOTV</display-name><icon src="https://i.imgur.com/HaoVsm5.png"/><url>https://vidio.com</url></channel>
-<channel id="18190"><display-name>Champions Golf 2</display-name><url>https://vidio.com</url></channel>
-<channel id="AfricanewsEnglish.fr@SD"><display-name>AFRICANEWS TV</display-name><icon src="https://a.jsrdn.com/hls/22886/africanews/extras/1080_logo.png"/><url>https://vidio.com</url></channel>
+<channel id="tvOne.id@SD"><display-name>TVOne</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/960px-TvOne_2023.svg.png"/><url>https://vidio.com</url></channel>
+<channel id="ANTV.id@SD"><display-name>ANTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/960px-Antv_logo.svg.png"/><url>https://vidio.com</url></channel>
+<channel id="MetroTV.id@SD"><display-name>Metro TV</display-name><icon src="https://i.imgur.com/QnU70NI.png"/><url>https://vidio.com</url></channel>
+<channel id="Trans7.id@SD"><display-name>Trans7</display-name><icon src="https://i.imgur.com/fAbGImS.png"/><url>https://vidio.com</url></channel>
+<channel id="TransTV.id@SD"><display-name>TRANS TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Trans_TV_2013.svg/960px-Trans_TV_2013.svg.png"/><url>https://vidio.com</url></channel>
+<channel id="Moji.id@SD"><display-name>Moji</display-name><icon src="https://i.imgur.com/mM9zapJ.png"/><url>https://vidio.com</url></channel>
+<channel id="Indosiar.id@SD"><display-name>Indosiar</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/960px-Indosiar_2015.svg.png"/><url>https://vidio.com</url></channel>
 <programme start="20260420162500 +0000" stop="20260420175500 +0000" channel="17875"><title lang="id">Cancun P2 Day 1 Match 1 : Premier Padel 2026</title><desc lang="id">Cancun P2 Day 1 Match 1</desc><image>https://thumbor.prod.vidiocdn.com/VmoYokSeKr_3SubUXC-rMC-EtQM=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17875/bein-2-25a5f9.jpg</image></programme>
 <programme start="20260420175500 +0000" stop="20260420182200 +0000" channel="17875"><title lang="id">Fiji vs France - Singapore Day 2, Men : HSBC SVNS Series 2026</title><desc lang="id">Fiji vs France - Singapore Day 2, Men</desc><image>https://thumbor.prod.vidiocdn.com/VmoYokSeKr_3SubUXC-rMC-EtQM=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17875/bein-2-25a5f9.jpg</image></programme>
 <programme start="20260420182200 +0000" stop="20260420203000 +0000" channel="17875"><title lang="id">Deportivo vs Mirandes : LaLiga 2 2025/26</title><desc lang="id">Deportivo vs Mirandes</desc><image>https://thumbor.prod.vidiocdn.com/VmoYokSeKr_3SubUXC-rMC-EtQM=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/17875/bein-2-25a5f9.jpg</image></programme>
@@ -635,11 +635,11 @@
 <programme start="20260420214500 +0000" stop="20260420230000 +0000" channel="ANTV.id@SD"><title lang="id">Ummi</title><desc lang="id">Kisah perjuangan Ummi Marwah, seorang ustazah, dalam menjaga keutuhan rumah tangga dan mendidik anak-anaknya. Abah Asep, suaminya, berperilaku arogan dan selingkuh dengan asisten rumah tangga.</desc><image>https://thumbor.prod.vidiocdn.com/20tRQaK9Gps_wFQL5rY-XgRbrs4=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/782/antv-de8530.jpg</image></programme>
 <programme start="20260420230000 +0000" stop="20260421003100 +0000" channel="ANTV.id@SD"><title lang="id">Kasautii</title><desc lang="id">Anurag dan Prerna kuliah di universitas yang sama, dan akhirnya menjalin hubungan erat. Namun, mereka harus menghadapi orang-orang yang ingin memisahkan keduanya, karena perbedaan status sosial.</desc><image>https://thumbor.prod.vidiocdn.com/NEPi7YXg47bULKiGpF6ex6-T4a8=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5021144/a6db60.jpg</image></programme>
 <programme start="20260421003100 +0000" stop="20260421023400 +0000" channel="ANTV.id@SD"><title lang="id">Janji Cinta Inspektur Virat</title><desc lang="id">Kisah seorang inspektur yang terlibat dalam kisah percintaan segitiga.</desc><image>https://thumbor.prod.vidiocdn.com/VMqJn9jawRecdbw5SSdxxTHN_88=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/tv_program/thumbnail/386704/218ebf.jpg</image></programme>
-<programme start="20260421023400 +0000" stop="20260421055800 +0000" channel="ANTV.id@SD"><title lang="id">Mega Bollywood: Dil Hai Tumhaara</title><image>https://thumbor.prod.vidiocdn.com/IQ51za6lI1VgG2Fg3-7Zkt8NfIQ=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5021160/f65b78.jpg</image></programme>
-<programme start="20260421055800 +0000" stop="20260421075100 +0000" channel="ANTV.id@SD"><title lang="id">Jhanak</title><desc lang="id">Seorang wanita muda yang bersemangat memulai perjalanan untuk memenuhi janji seorang ibu demi kehidupan yang lebih baik sambil mengatasi tantangan dan kehilangan.</desc><image>https://thumbor.prod.vidiocdn.com/c04px_lGwbVV91PH0cDkOE1lRCU=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5021149/fa78ae.jpg</image></programme>
-<programme start="20260421075100 +0000" stop="20260421090000 +0000" channel="ANTV.id@SD"><title lang="id">Teri Meri Doriyaann</title><image>https://thumbor.prod.vidiocdn.com/raPIpaxFP0V4AiUToYdXKoA93WE=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5022129/60490d.jpg</image></programme>
-<programme start="20260421090000 +0000" stop="20260421111500 +0000" channel="ANTV.id@SD"><title lang="id">Vasudha</title><desc lang="id">Vasudha yang periang bergabung dengan rumah pemimpin bisnis Chandrika sebagai pembantu dan mendambakan persetujuannya meskipun ada perbedaan ideologis di antara mereka.</desc><image>https://thumbor.prod.vidiocdn.com/OpLihZM7bkscftLUR4hCLYZQJDM=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5021151/d1520e.jpg</image></programme>
-<programme start="20260421111500 +0000" stop="20260421130000 +0000" channel="ANTV.id@SD"><title lang="id">Sinema Laga Klasik: Gadis Bionik</title><desc lang="id">Rita terluka parah dan dioperasi akibat perbuatan komplotan Kontet yang menabraknya. Kejadian itu membuat Rita menjadi gadis bionik dan membantu polisi menumpas kejahatan termasuk komplotan Kontet.</desc><image>https://thumbor.prod.vidiocdn.com/20tRQaK9Gps_wFQL5rY-XgRbrs4=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/782/antv-de8530.jpg</image></programme>
+<programme start="20260421023400 +0000" stop="20260421055300 +0000" channel="ANTV.id@SD"><title lang="id">Mega Bollywood: Dil Hai Tumhaara</title><image>https://thumbor.prod.vidiocdn.com/IQ51za6lI1VgG2Fg3-7Zkt8NfIQ=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5021160/f65b78.jpg</image></programme>
+<programme start="20260421055300 +0000" stop="20260421075000 +0000" channel="ANTV.id@SD"><title lang="id">Jhanak</title><desc lang="id">Seorang wanita muda yang bersemangat memulai perjalanan untuk memenuhi janji seorang ibu demi kehidupan yang lebih baik sambil mengatasi tantangan dan kehilangan.</desc><image>https://thumbor.prod.vidiocdn.com/c04px_lGwbVV91PH0cDkOE1lRCU=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5021149/fa78ae.jpg</image></programme>
+<programme start="20260421075000 +0000" stop="20260421091100 +0000" channel="ANTV.id@SD"><title lang="id">Teri Meri Doriyaann</title><image>https://thumbor.prod.vidiocdn.com/raPIpaxFP0V4AiUToYdXKoA93WE=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5022129/60490d.jpg</image></programme>
+<programme start="20260421091100 +0000" stop="20260421105600 +0000" channel="ANTV.id@SD"><title lang="id">Vasudha</title><desc lang="id">Vasudha yang periang bergabung dengan rumah pemimpin bisnis Chandrika sebagai pembantu dan mendambakan persetujuannya meskipun ada perbedaan ideologis di antara mereka.</desc><image>https://thumbor.prod.vidiocdn.com/OpLihZM7bkscftLUR4hCLYZQJDM=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5021151/d1520e.jpg</image></programme>
+<programme start="20260421105600 +0000" stop="20260421130000 +0000" channel="ANTV.id@SD"><title lang="id">Sinema Laga Klasik: Gadis Bionik</title><desc lang="id">Rita terluka parah dan dioperasi akibat perbuatan komplotan Kontet yang menabraknya. Kejadian itu membuat Rita menjadi gadis bionik dan membantu polisi menumpas kejahatan termasuk komplotan Kontet.</desc><image>https://thumbor.prod.vidiocdn.com/20tRQaK9Gps_wFQL5rY-XgRbrs4=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/782/antv-de8530.jpg</image></programme>
 <programme start="20260421130000 +0000" stop="20260421143000 +0000" channel="ANTV.id@SD"><title lang="id">Sinema Spesial: Samson dan Delilah</title><desc lang="id">Delilah yang pada awalnya sempat mengkhianati Samson dengan membantu penangkapannya, berbalik mencintainya dan membantu Samson terbebas dari hukuman gantung yang akan dijalankannya.</desc><image>https://thumbor.prod.vidiocdn.com/20tRQaK9Gps_wFQL5rY-XgRbrs4=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/782/antv-de8530.jpg</image></programme>
 <programme start="20260421143000 +0000" stop="20260421161500 +0000" channel="ANTV.id@SD"><title lang="id">Sinema Spesial: Rumah Kentang: The Beginning</title><desc lang="id">Sebuah keluarga pergi ke rumah kosong di tengah ladang kentang. Adrian dan Sofie, seorang novelis, ingin mencari inspirasi, tetapi hal-hal aneh terjadi ketika mereka tinggal di rumah itu.</desc><image>https://thumbor.prod.vidiocdn.com/20tRQaK9Gps_wFQL5rY-XgRbrs4=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/782/antv-de8530.jpg</image></programme>
 <programme start="20260421163000 +0000" stop="20260421183000 +0000" channel="ANTV.id@SD"><title lang="id">Bioskop Asia: Teenage Mutant Ninja Turtles III</title><desc lang="id">Para kura-kura memulai petualangan baru saat mereka kembali ke Jepang untuk menyempurnakan seni menjadi samurai. Mereka juga membantu sebuah desa yang mencoba mengakhiri masa-masa penindasannya.</desc><image>https://thumbor.prod.vidiocdn.com/20tRQaK9Gps_wFQL5rY-XgRbrs4=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/782/antv-de8530.jpg</image></programme>
@@ -792,10 +792,11 @@
 <programme start="20260421125000 +0000" stop="20260421135000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Rally Sierra Morena SS13 Villanueva Del Rey 2 - PS : FIA European Rally Championship 2026</title><desc lang="id">Rally Sierra Morena SS13 Villanueva Del Rey 2 - PS</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
 <programme start="20260421135000 +0000" stop="20260421162000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">6 Hours of Imola, ITA Part 3 : FIA World Endurance Championship 2026</title><desc lang="id">6 Hours of Imola, ITA Part 3</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
 <programme start="20260421162000 +0000" stop="20260421165500 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Matchday 31 : LaLiga Highlights 2025/26</title><desc lang="id">Matchday 31</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
-<programme start="20260421170000 +0000" stop="20260421190000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Athletic Club vs Osasuna</title><desc lang="id">22 APR - 00:00 WIB | Akankah Athletic Club amankan poin penuh kala menghadapi tamu Osasuna?</desc><image>https://thumbor.prod.vidiocdn.com/44osmC9UzPV5_VDk8Mtf2SNbwlw=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5020465/313e30.jpg</image></programme>
+<programme start="20260421165500 +0000" stop="20260421190000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Athletic Club vs Osasuna - Laliga</title><desc lang="id">Nonton streaming pertandingan seru Athletic Club vs Osasuna - LaLiga. Saksikan aksi-aksi terbaik dari tim yang bersaing ketat untuk meraih kemenangan. Dapatkan informasi lengkap mengenai jadwal pertandingan dan hasil pertandingan terbaru hanya di Vidio.</desc><image>https://thumbor.prod.vidiocdn.com/44osmC9UzPV5_VDk8Mtf2SNbwlw=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5020465/313e30.jpg</image></programme>
+<programme start="20260421165500 +0000" stop="20260421190000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Athletic Club vs Osasuna - Laliga</title><desc lang="id">Nonton streaming pertandingan seru Athletic Club vs Osasuna - LaLiga. Saksikan aksi-aksi terbaik dari tim yang bersaing ketat untuk meraih kemenangan. Dapatkan informasi lengkap mengenai jadwal pertandingan dan hasil pertandingan terbaru hanya di Vidio.</desc><image>https://thumbor.prod.vidiocdn.com/44osmC9UzPV5_VDk8Mtf2SNbwlw=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5020465/313e30.jpg</image></programme>
 <programme start="20260421190000 +0000" stop="20260421191500 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Barcelona vs Real Madrid - 2018/19 : LaLiga Club Classic Archive</title><desc lang="id">Barcelona vs Real Madrid - 2018/19</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
 <programme start="20260421191500 +0000" stop="20260421192500 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Barcelona vs Real Madrid - 2022/23 : LaLiga Club Classic Archive</title><desc lang="id">Barcelona vs Real Madrid - 2022/23</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
-<programme start="20260421193000 +0000" stop="20260421213000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Real Madrid vs Alaves - LaLiga</title><desc lang="id">Nonton streaming pertandingan seru Real Madrid vs Alaves - LaLiga. Saksikan aksi-aksi terbaik dari tim yang bersaing ketat untuk meraih kemenangan. Dapatkan informasi lengkap mengenai jadwal pertandingan dan hasil pertandingan terbaru hanya di Vidio.</desc><image>https://thumbor.prod.vidiocdn.com/buYEvJEk6q7Xu7Y1_ERtUR0wzmA=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5020468/494e60.jpg</image></programme>
+<programme start="20260421192500 +0000" stop="20260421213000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Real Madrid vs Alaves - LaLiga</title><desc lang="id">Nonton streaming pertandingan seru Real Madrid vs Alaves - LaLiga. Saksikan aksi-aksi terbaik dari tim yang bersaing ketat untuk meraih kemenangan. Dapatkan informasi lengkap mengenai jadwal pertandingan dan hasil pertandingan terbaru hanya di Vidio.</desc><image>https://thumbor.prod.vidiocdn.com/buYEvJEk6q7Xu7Y1_ERtUR0wzmA=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5020468/494e60.jpg</image></programme>
 <programme start="20260421213000 +0000" stop="20260421220000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Episode Number 9 : Going Pro 2026</title><desc lang="id">Episode Number 9</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
 <programme start="20260421220000 +0000" stop="20260421235000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Frankfurt vs Sporting - R16 : UEFA Youth League 2025/26</title><desc lang="id">Frankfurt vs Sporting - R16</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
 <programme start="20260421235000 +0000" stop="20260422014000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Real Madrid vs Alaves : LaLiga 2025/26</title><desc lang="id">Real Madrid vs Alaves</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
@@ -815,6 +816,7 @@
 <programme start="20260422141000 +0000" stop="20260422160000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Real Madrid vs Alaves : LaLiga 2025/26</title><desc lang="id">Real Madrid vs Alaves</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
 <programme start="20260422160000 +0000" stop="20260422162000 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Robert Lewandowski : LaLiga Goals Galore 2024/25</title><desc lang="id">Robert Lewandowski</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
 <programme start="20260422162000 +0000" stop="20260422165500 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Rally Islas Canarias : FIA World Rally Championships Magazine Show 2026</title><desc lang="id">Rally Islas Canarias</desc><image>https://thumbor.prod.vidiocdn.com/5yUHYfv_b1sZi7kdFElm8JqF2RY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-4bd997.jpg</image></programme>
+<programme start="20260422165500 +0000" stop="20260422191500 +0000" channel="beINSports1.qa@Indonesia"><title lang="id">Elche vs Atletico Madrid - LaLiga</title><desc lang="id">23 APR - 23:00 WIB | Mampukah Elche bendung gempuran Los Colchoneros di Stadion Manuel Martinez Valero?</desc><image>https://thumbor.prod.vidiocdn.com/V-URwMMTw5jHH_f8kBqHMDnoLTE=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5021451/f0d943.jpg</image></programme>
 <programme start="20260420160000 +0000" stop="20260420170000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Paris-Roubaix : UCI World Tour Highlights 2026</title><desc lang="id">Paris-Roubaix</desc><image>https://thumbor.prod.vidiocdn.com/xiN-u5MIG7jgOVE2tB_TUIynz7k=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-616b1c.jpg</image></programme>
 <programme start="20260420170000 +0000" stop="20260420190000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Uganda vs Nigeria - Group Stage : TotalEnergies Africa Cup of Nations, Morocco 2025</title><desc lang="id">Uganda vs Nigeria - Group Stage</desc><image>https://thumbor.prod.vidiocdn.com/xiN-u5MIG7jgOVE2tB_TUIynz7k=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-616b1c.jpg</image></programme>
 <programme start="20260420190000 +0000" stop="20260420220000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Paris-Roubaix : UCI World Tour 2026</title><desc lang="id">Paris-Roubaix</desc><image>https://thumbor.prod.vidiocdn.com/xiN-u5MIG7jgOVE2tB_TUIynz7k=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-616b1c.jpg</image></programme>
@@ -837,9 +839,10 @@
 <programme start="20260421133000 +0000" stop="20260421153000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Aston Villa vs Bologna - QF, 2nd Leg : UEFA Europa League 2025/26</title><desc lang="id">Aston Villa vs Bologna - QF, 2nd Leg</desc><image>https://thumbor.prod.vidiocdn.com/xiN-u5MIG7jgOVE2tB_TUIynz7k=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-616b1c.jpg</image></programme>
 <programme start="20260421153000 +0000" stop="20260421160000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Wed,QFs,2nd Leg : UEFA Champions League Highlights 2025/26</title><desc lang="id">Wed,QFs,2nd Leg</desc><image>https://thumbor.prod.vidiocdn.com/xiN-u5MIG7jgOVE2tB_TUIynz7k=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-616b1c.jpg</image></programme>
 <programme start="20260421160000 +0000" stop="20260421165500 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Rio de Janeiro , Brazil : SailGP Highlights 2026</title><desc lang="id">Rio de Janeiro , Brazil</desc><image>https://thumbor.prod.vidiocdn.com/xiN-u5MIG7jgOVE2tB_TUIynz7k=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-616b1c.jpg</image></programme>
-<programme start="20260421170000 +0000" stop="20260421190000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Mallorca vs Valencia - LaLiga</title><desc lang="id">Nonton streaming pertandingan seru Mallorca vs Valencia - LaLiga. Saksikan aksi-aksi terbaik dari tim yang bersaing ketat untuk meraih kemenangan. Dapatkan informasi lengkap mengenai jadwal pertandingan dan hasil pertandingan terbaru hanya di Vidio.</desc><image>https://thumbor.prod.vidiocdn.com/xts6ekrl_sfIw-1M9_PT4h2Q7tU=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5020466/404913.jpg</image></programme>
+<programme start="20260421165500 +0000" stop="20260421190000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Mallorca vs Valencia - LaLiga</title><desc lang="id">Nonton streaming pertandingan seru Mallorca vs Valencia - LaLiga. Saksikan aksi-aksi terbaik dari tim yang bersaing ketat untuk meraih kemenangan. Dapatkan informasi lengkap mengenai jadwal pertandingan dan hasil pertandingan terbaru hanya di Vidio.</desc><image>https://thumbor.prod.vidiocdn.com/xts6ekrl_sfIw-1M9_PT4h2Q7tU=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5020466/404913.jpg</image></programme>
+<programme start="20260421165500 +0000" stop="20260421190000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Mallorca vs Valencia - LaLiga</title><desc lang="id">Nonton streaming pertandingan seru Mallorca vs Valencia - LaLiga. Saksikan aksi-aksi terbaik dari tim yang bersaing ketat untuk meraih kemenangan. Dapatkan informasi lengkap mengenai jadwal pertandingan dan hasil pertandingan terbaru hanya di Vidio.</desc><image>https://thumbor.prod.vidiocdn.com/xts6ekrl_sfIw-1M9_PT4h2Q7tU=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5020466/404913.jpg</image></programme>
 <programme start="20260421190000 +0000" stop="20260421192500 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">UCL Every Goal - Karim Benzema : UCL Specials</title><desc lang="id">UCL Every Goal - Karim Benzema</desc><image>https://thumbor.prod.vidiocdn.com/xiN-u5MIG7jgOVE2tB_TUIynz7k=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-616b1c.jpg</image></programme>
-<programme start="20260421193000 +0000" stop="20260421213000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Girona vs Real Betis - LaLiga</title><desc lang="id">Nonton streaming pertandingan seru Girona vs Real Betis - LaLiga. Saksikan aksi-aksi terbaik dari tim yang bersaing ketat untuk meraih kemenangan. Dapatkan informasi lengkap mengenai jadwal pertandingan dan hasil pertandingan terbaru hanya di Vidio.</desc><image>https://thumbor.prod.vidiocdn.com/Ng5YM4tpPEaDSP0AhWxV78G5l3I=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5020467/393315.jpg</image></programme>
+<programme start="20260421192500 +0000" stop="20260421213000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Girona vs Real Betis - LaLiga</title><desc lang="id">Nonton streaming pertandingan seru Girona vs Real Betis - LaLiga. Saksikan aksi-aksi terbaik dari tim yang bersaing ketat untuk meraih kemenangan. Dapatkan informasi lengkap mengenai jadwal pertandingan dan hasil pertandingan terbaru hanya di Vidio.</desc><image>https://thumbor.prod.vidiocdn.com/Ng5YM4tpPEaDSP0AhWxV78G5l3I=/287x162/filters:strip_icc():quality(70)/vidio-media-production/uploads/livestreaming/schedule/thumbnail/5020467/393315.jpg</image></programme>
 <programme start="20260421213000 +0000" stop="20260421230000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Rio de Janeiro , Brazil Day 1 : SailGP 2026</title><desc lang="id">Rio de Janeiro , Brazil Day 1</desc><image>https://thumbor.prod.vidiocdn.com/xiN-u5MIG7jgOVE2tB_TUIynz7k=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-616b1c.jpg</image></programme>
 <programme start="20260421230000 +0000" stop="20260421233000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Tue,QFs,2nd Leg : UEFA Champions League Highlights 2025/26</title><desc lang="id">Tue,QFs,2nd Leg</desc><image>https://thumbor.prod.vidiocdn.com/xiN-u5MIG7jgOVE2tB_TUIynz7k=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-616b1c.jpg</image></programme>
 <programme start="20260421233000 +0000" stop="20260422003000 +0000" channel="beINSports3.qa@Indonesia"><title lang="id">Paris-Roubaix : UCI World Tour Highlights 2026</title><desc lang="id">Paris-Roubaix</desc><image>https://thumbor.prod.vidiocdn.com/xiN-u5MIG7jgOVE2tB_TUIynz7k=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-616b1c.jpg</image></programme>
@@ -2362,8 +2365,8 @@
 <programme start="20260421020000 +0000" stop="20260421040000 +0000" channel="Moji.id@SD"><title lang="id">Ungkap</title><desc lang="id">Ungkap</desc><image>https://thumbor.prod.vidiocdn.com/NdmzqkxqnWVnlngtk_ObYNT-wiY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg</image></programme>
 <programme start="20260421040000 +0000" stop="20260421060000 +0000" channel="Moji.id@SD"><title lang="id">Tercyduk</title><desc lang="id">Tercyduk</desc><image>https://thumbor.prod.vidiocdn.com/NdmzqkxqnWVnlngtk_ObYNT-wiY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg</image></programme>
 <programme start="20260421060000 +0000" stop="20260421081400 +0000" channel="Moji.id@SD"><title lang="id">Tercyduk</title><desc lang="id">Tercyduk</desc><image>https://thumbor.prod.vidiocdn.com/NdmzqkxqnWVnlngtk_ObYNT-wiY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg</image></programme>
-<programme start="20260421081400 +0000" stop="20260421112000 +0000" channel="Moji.id@SD"><title lang="id">Proliga 2026 First Serve 16:00</title><desc lang="id">Proliga 2026 First Serve 16:00</desc><image>https://thumbor.prod.vidiocdn.com/NdmzqkxqnWVnlngtk_ObYNT-wiY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg</image></programme>
-<programme start="20260421112000 +0000" stop="20260421140000 +0000" channel="Moji.id@SD"><title lang="id">Proliga 2026 First Serve 19:00</title><desc lang="id">Proliga 2026 First Serve 19:00</desc><image>https://thumbor.prod.vidiocdn.com/NdmzqkxqnWVnlngtk_ObYNT-wiY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg</image></programme>
+<programme start="20260421081400 +0000" stop="20260421110800 +0000" channel="Moji.id@SD"><title lang="id">Surabaya Samator vs Jakarta Garuda Jaya : Proliga 2026</title><desc lang="id">Bronze Medal, Game 1.</desc><image>https://thumbor.prod.vidiocdn.com/NdmzqkxqnWVnlngtk_ObYNT-wiY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg</image></programme>
+<programme start="20260421110800 +0000" stop="20260421140000 +0000" channel="Moji.id@SD"><title lang="id">Jakarta Popsivo Polwan vs Jakarta Electric PLN Mobile : Proliga 2026</title><desc lang="id">Bronze Medal, Game 1.</desc><image>https://thumbor.prod.vidiocdn.com/NdmzqkxqnWVnlngtk_ObYNT-wiY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg</image></programme>
 <programme start="20260421140000 +0000" stop="20260421160000 +0000" channel="Moji.id@SD"><title lang="id">Rerun Ucl</title><desc lang="id">Rerun Ucl</desc><image>https://thumbor.prod.vidiocdn.com/NdmzqkxqnWVnlngtk_ObYNT-wiY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg</image></programme>
 <programme start="20260421160000 +0000" stop="20260421173000 +0000" channel="Moji.id@SD"><title lang="id">Harta Tahta Cinta</title><desc lang="id">Harta Tahta Cinta</desc><image>https://thumbor.prod.vidiocdn.com/NdmzqkxqnWVnlngtk_ObYNT-wiY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg</image></programme>
 <programme start="20260421160000 +0000" stop="20260421173000 +0000" channel="Moji.id@SD"><title lang="id">Harta Tahta Cinta</title><desc lang="id">Harta Tahta Cinta</desc><image>https://thumbor.prod.vidiocdn.com/NdmzqkxqnWVnlngtk_ObYNT-wiY=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/206/moji-a5bd3e.jpg</image></programme>
@@ -3038,38 +3041,38 @@
 <programme start="20260422140000 +0000" stop="20260422150000 +0000" channel="tvOne.id@SD"><title lang="id">Kabar Utama</title><image>https://thumbor.prod.vidiocdn.com/TyXbaZqF_g2hn94imFJllHzaz_Q=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/783/tvone-bb42ce.jpg</image></programme>
 <programme start="20260422150000 +0000" stop="20260422160000 +0000" channel="tvOne.id@SD"><title lang="id">Kabar Hari Ini</title><image>https://thumbor.prod.vidiocdn.com/TyXbaZqF_g2hn94imFJllHzaz_Q=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/783/tvone-bb42ce.jpg</image></programme>
 <programme start="20260422160000 +0000" stop="20260422170000 +0000" channel="tvOne.id@SD"><title lang="id">Apa Kabar Indonesia Malam</title><image>https://thumbor.prod.vidiocdn.com/TyXbaZqF_g2hn94imFJllHzaz_Q=/287x162/filters:strip_icc():quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/783/tvone-bb42ce.jpg</image></programme>
-<channel id="AsianFoodNetwork.sg@SD"><display-name>Asian Food Network</display-name><icon src="https://i.imgur.com/pux6WN8.png"/><url>https://indihometv.com</url></channel>
-<channel id="QuranTV.sa@SD"><display-name>AlQuran Kareem</display-name><icon src="https://i.imgur.com/OKpxQef.jpg"/><url>https://indihometv.com</url></channel>
-<channel id="AntaraTV.id@SD"><display-name>Antara</display-name><icon src="https://thumbor.prod.vidiocdn.com/GZLOFeCtplhuW5-hl6yePAuO5G8=/filters:strip_icc():quality(70)/vidio-web-prod-user/uploads/user/avatar/909905/antaratv-90a879.jpg"/><url>https://indihometv.com</url></channel>
-<channel id="BTV.id@SD"><display-name>BTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="CNNIndonesia.id@SD"><display-name>CNN Indonesia</display-name><icon src="https://i.imgur.com/l0JyOrm.png"/><url>https://indihometv.com</url></channel>
-<channel id="JakTV.id@SD"><display-name>JakTV</display-name><icon src="https://i.imgur.com/xyLLLOi.png"/><url>https://indihometv.com</url></channel>
-<channel id="iNews.id@SD"><display-name>iNews</display-name><icon src="https://i.imgur.com/M2R3lfg.png"/><url>https://indihometv.com</url></channel>
-<channel id="CNBCIndonesia.id@SD"><display-name>CNBC Indonesia</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/5/51/CNBC_Indonesia_2025.svg"/><url>https://indihometv.com</url></channel>
-<channel id="Indosiar.id@SD"><display-name>Indosiar</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/960px-Indosiar_2015.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="FunPlanet.id@SD"><display-name>FunPlanet</display-name><icon src="https://i.postimg.cc/Hkwmq94K/Fun-Planet.png"/><url>https://indihometv.com</url></channel>
-<channel id="SPOTV2.id@SD"><display-name>SPOTV 2</display-name><icon src="https://i.imgur.com/YD8fbTH.png"/><url>https://indihometv.com</url></channel>
-<channel id="CNBCAsia.sg@SD"><display-name>CNBC Asia</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg"/><url>https://indihometv.com</url></channel>
-<channel id="IMC.id@SD"><display-name>IMC</display-name><icon src="https://i.postimg.cc/RhrVvp29/4r2D8xN.png"/><url>https://indihometv.com</url></channel>
-<channel id="IDXChannel.id@SD"><display-name>IDX</display-name><icon src="https://i.imgur.com/xPvrcsr.png"/><url>https://indihometv.com</url></channel>
-<channel id="CitraDangdut.id@SD"><display-name>Citra Dangdut</display-name><icon src="https://i.imgur.com/77KYgbz.png"/><url>https://indihometv.com</url></channel>
-<channel id="BeritaSatu.id@SD"><display-name>Berita Satu</display-name><icon src="https://i.postimg.cc/6pycF7Vx/300px-IDTV.png"/><url>https://indihometv.com</url></channel>
-<channel id="HorizonSports.us@SD"><display-name>Horizon Sports</display-name><icon src="https://i.imgur.com/w2JzGSy.png"/><url>https://indihometv.com</url></channel>
-<channel id="AniplusAsia.sg@SD"><display-name>Aniplus</display-name><icon src="https://i.imgur.com/Im3MePy.png"/><url>https://indihometv.com</url></channel>
-<channel id="SPOTV.id@SD"><display-name>SPOTV</display-name><icon src="https://i.imgur.com/HaoVsm5.png"/><url>https://indihometv.com</url></channel>
-<channel id="CinemaWorld.my@SD"><display-name>Cinema World</display-name><icon src="https://i.imgur.com/D2qNVZ7.png"/><url>https://indihometv.com</url></channel>
-<channel id="Horee.id@SD"><display-name>Horee</display-name><icon src="https://i.imgur.com/S4aoHg8.png"/><url>https://indihometv.com</url></channel>
-<channel id="hitsnow"><display-name>HITS Now</display-name><url>https://indihometv.com</url></channel>
-<channel id="ChineseDrama.hk@SD"><display-name>Chinese Drama</display-name><icon src="https://i.imgur.com/OD1dGmg.png"/><url>https://indihometv.com</url></channel>
-<channel id="HITSMovies.sg@SD"><display-name>HIts Movie</display-name><icon src="https://i.imgur.com/kyE3vXf.png"/><url>https://indihometv.com</url></channel>
-<channel id="HITS.sg@SD"><display-name>Hits</display-name><icon src="https://i.imgur.com/IM8Gy1l.png"/><url>https://indihometv.com</url></channel>
-<channel id="BaliTV.id@SD"><display-name>Bali TV</display-name><icon src="https://i.imgur.com/uH1Szme.png"/><url>https://indihometv.com</url></channel>
-<channel id="CGTNDocumentary.cn@SD"><display-name>CGTN Documentary</display-name><icon src="https://i.imgur.com/JHv0WxM.png"/><url>https://indihometv.com</url></channel>
-<channel id="HistoryAsia.us@SD"><display-name>History</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="HGTVAsia.us@SD"><display-name>HGTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="CelestialMoviesIndonesia.id@SD"><display-name>Celestial Movie</display-name><icon src="https://i.imgur.com/KYP1xXZ.png"/><url>https://indihometv.com</url></channel>
-<channel id="GalaxyPremium.id@SD"><display-name>Galaxy Premium</display-name><icon src="https://i.imgur.com/oGKtYYG.png"/><url>https://indihometv.com</url></channel>
-<channel id="Galaxy.id@SD"><display-name>Galaxy</display-name><icon src="https://i.imgur.com/205RLbh.png"/><url>https://indihometv.com</url></channel>
+<channel id="TVRIWorld.id@SD"><display-name>TVRI World</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRIWorld.png/960px-TVRIWorld.png"/><url>https://indihometv.com</url></channel>
+<channel id="RT.ru@SD"><display-name>RT</display-name><icon src="https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540"/><url>https://indihometv.com</url></channel>
+<channel id="RCTI.id@SD"><display-name>RCTI</display-name><icon src="https://i.imgur.com/iLFx8ia.png"/><url>https://indihometv.com</url></channel>
+<channel id="MNCTV.id@SD"><display-name>MNCTV</display-name><icon src="https://i.imgur.com/SK8pjQy.png"/><url>https://indihometv.com</url></channel>
+<channel id="GTV.id@SD"><display-name>GTV</display-name><icon src="https://i.imgur.com/jjuKnYs.png"/><url>https://indihometv.com</url></channel>
+<channel id="ZhejiangSatelliteTV.cn@SD"><display-name>Zhejiang</display-name><icon src="https://i.imgur.com/NFFQNhq.png"/><url>https://indihometv.com</url></channel>
+<channel id="ZeeBioskop.id@SD"><display-name>ZBioskop</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Zee_Bioskop_%282025%29.svg"/><url>https://indihometv.com</url></channel>
+<channel id="WarnerTVAsia.us@SD"><display-name>Warner</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png"/><url>https://indihometv.com</url></channel>
+<channel id="AllPlayEnt.id@SD"><display-name>AllPlay Ent</display-name><icon src="https://i.postimg.cc/K8yShFYn/1200px-All-Play-Entertainment.png"/><url>https://indihometv.com</url></channel>
+<channel id="UChannel.id@SD"><display-name>UChannel</display-name><icon src="https://i.imgur.com/qxkb0cy.png"/><url>https://indihometv.com</url></channel>
+<channel id="TVRI.id@SD"><display-name>TVRI Nasional</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="tvOne.id@SD"><display-name>TV One</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/960px-TvOne_2023.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="tvNMoviesAsia.hk@SD"><display-name>TVN Movies</display-name><icon src="https://i.imgur.com/c4XvwO2.png"/><url>https://indihometv.com</url></channel>
+<channel id="tvNAsia.hk@SD"><display-name>TVN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/960px-Logo_tvN.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="TVBSNews.tw@SD"><display-name>TVBS News</display-name><icon src="https://i.imgur.com/171lwfg.png"/><url>https://indihometv.com</url></channel>
+<channel id="TV9Nusantara.id@SD"><display-name>TV9 NU</display-name><icon src="https://upload.wikimedia.org/wikipedia/id/e/ed/TV9_Nusantara.png"/><url>https://indihometv.com</url></channel>
+<channel id="TV5MondeAsia.fr@SD"><display-name>TV5Monde</display-name><icon src="https://i.imgur.com/FRsRXRR.png"/><url>https://indihometv.com</url></channel>
+<channel id="TransTV.id@SD"><display-name>TransTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Trans_TV_2013.svg/960px-Trans_TV_2013.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="Trans7.id@SD"><display-name>Trans7</display-name><icon src="https://i.imgur.com/fAbGImS.png"/><url>https://indihometv.com</url></channel>
+<channel id="TLCSoutheastAsia.sg@SD"><display-name>TLC</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="Thrill.hk@SD"><display-name>Thrill</display-name><icon src="https://i.imgur.com/Y282owj.png"/><url>https://indihometv.com</url></channel>
+<channel id="TawafTV.id@SD"><display-name>Tawaf TV</display-name><url>https://indihometv.com</url></channel>
+<channel id="StudioUniversalLatinAmerica.us@Brazil"><display-name>Studio Universal</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png"/><url>https://indihometv.com</url></channel>
+<channel id="ONE.sg@SD"><display-name>SONE</display-name><icon src="https://i.imgur.com/ea0iGfA.png"/><url>https://indihometv.com</url></channel>
+<channel id="ShenzhenTV.cn@SD"><display-name>Shenzen</display-name><icon src="https://i.imgur.com/AnZjWm4.png"/><url>https://indihometv.com</url></channel>
+<channel id="SCTV.id@SD"><display-name>SCTV</display-name><icon src="https://i.imgur.com/EMmOvnQ.png"/><url>https://indihometv.com</url></channel>
+<channel id="RajawaliTV.id@SD"><display-name>Rajawali TV</display-name><icon src="https://i.imgur.com/dlsv1sl.png"/><url>https://indihometv.com</url></channel>
+<channel id="RodjaTV.id@SD"><display-name>Rodja TV</display-name><icon src="https://i.imgur.com/XwCeHlC.png"/><url>https://indihometv.com</url></channel>
+<channel id="pramborstv"><display-name>Prambors</display-name><url>https://indihometv.com</url></channel>
+<channel id="PhoenixInfoNewsChannel.hk@SD"><display-name>Phoenix InfoNews</display-name><icon src="https://i.imgur.com/mt4h3VO.png"/><url>https://indihometv.com</url></channel>
+<channel id="PhoenixChineseChannel.hk@SD"><display-name>Phoenix Chinese</display-name><icon src="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png"/><url>https://indihometv.com</url></channel>
+<channel id="Moji.id@SD"><display-name>MOJI</display-name><icon src="https://i.imgur.com/mM9zapJ.png"/><url>https://indihometv.com</url></channel>
 <channel id="NusantaraTV.id@SD"><display-name>Nusantara TV</display-name><icon src="https://i.imgur.com/viun5hj.png"/><url>https://indihometv.com</url></channel>
 <channel id="NickJrAsia.sg@SD"><display-name>Nick Junior</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png"/><url>https://indihometv.com</url></channel>
 <channel id="NickelodeonAsia.sg@SD"><display-name>Nickelodeon</display-name><icon src="https://i.imgur.com/E84jnP8.png"/><url>https://indihometv.com</url></channel>
@@ -3100,69 +3103,69 @@
 <channel id="KBSWorld.kr@SD"><display-name>KBS World</display-name><icon src="https://i.imgur.com/7DqgELX.png"/><url>https://indihometv.com</url></channel>
 <channel id="JTV.id@SD"><display-name>JTV</display-name><icon src="https://i.imgur.com/mIDWIQk.png"/><url>https://indihometv.com</url></channel>
 <channel id="JawaPosTV.id@SD"><display-name>Jawa Pos TV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jawa_Pos_TV_2024.svg/960px-Jawa_Pos_TV_2024.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="AlJazeera.qa@Arabic"><display-name>Aljazeera</display-name><icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="AnimaxAsia.sg@SD"><display-name>Animax</display-name><icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png"/><url>https://indihometv.com</url></channel>
-<channel id="AXNAsia.sg@Indonesia"><display-name>AXN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="CitraDrama.id@SD"><display-name>Citra Drama</display-name><icon src="https://i.imgur.com/lXhXwx7.png"/><url>https://indihometv.com</url></channel>
+<channel id="JakTV.id@SD"><display-name>JakTV</display-name><icon src="https://i.imgur.com/xyLLLOi.png"/><url>https://indihometv.com</url></channel>
+<channel id="iNews.id@SD"><display-name>iNews</display-name><icon src="https://i.imgur.com/M2R3lfg.png"/><url>https://indihometv.com</url></channel>
+<channel id="Indosiar.id@SD"><display-name>Indosiar</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/960px-Indosiar_2015.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="FunPlanet.id@SD"><display-name>FunPlanet</display-name><icon src="https://i.postimg.cc/Hkwmq94K/Fun-Planet.png"/><url>https://indihometv.com</url></channel>
+<channel id="IMC.id@SD"><display-name>IMC</display-name><icon src="https://i.postimg.cc/RhrVvp29/4r2D8xN.png"/><url>https://indihometv.com</url></channel>
+<channel id="IDXChannel.id@SD"><display-name>IDX</display-name><icon src="https://i.imgur.com/xPvrcsr.png"/><url>https://indihometv.com</url></channel>
+<channel id="BeritaSatu.id@SD"><display-name>Berita Satu</display-name><icon src="https://i.postimg.cc/6pycF7Vx/300px-IDTV.png"/><url>https://indihometv.com</url></channel>
+<channel id="HorizonSports.us@SD"><display-name>Horizon Sports</display-name><icon src="https://i.imgur.com/w2JzGSy.png"/><url>https://indihometv.com</url></channel>
+<channel id="Horee.id@SD"><display-name>Horee</display-name><icon src="https://i.imgur.com/S4aoHg8.png"/><url>https://indihometv.com</url></channel>
+<channel id="hitsnow"><display-name>HITS Now</display-name><url>https://indihometv.com</url></channel>
+<channel id="HITSMovies.sg@SD"><display-name>HIts Movie</display-name><icon src="https://i.imgur.com/kyE3vXf.png"/><url>https://indihometv.com</url></channel>
+<channel id="HITS.sg@SD"><display-name>Hits</display-name><icon src="https://i.imgur.com/IM8Gy1l.png"/><url>https://indihometv.com</url></channel>
+<channel id="HistoryAsia.us@SD"><display-name>History</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="HGTVAsia.us@SD"><display-name>HGTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="GalaxyPremium.id@SD"><display-name>Galaxy Premium</display-name><icon src="https://i.imgur.com/oGKtYYG.png"/><url>https://indihometv.com</url></channel>
+<channel id="Galaxy.id@SD"><display-name>Galaxy</display-name><icon src="https://i.imgur.com/205RLbh.png"/><url>https://indihometv.com</url></channel>
 <channel id="France24.fr@English"><display-name>France 24</display-name><icon src="https://dtil.tmsimg.com/assets/s159111_ld_h15_aa.png?lock=720x540"/><url>https://indihometv.com</url></channel>
 <channel id="Flik.id@SD"><display-name>Flik</display-name><icon src="https://i.postimg.cc/28rxjgwk/1681490401760.png"/><url>https://indihometv.com</url></channel>
-<channel id="CCTV4Asia.cn@SD"><display-name>CCTV4</display-name><icon src="https://i.imgur.com/tWt4Wou.png"/><url>https://indihometv.com</url></channel>
 <channel id="FightSports.us@SD"><display-name>Fight Sport</display-name><icon src="https://i.imgur.com/nV55veq.png"/><url>https://indihometv.com</url></channel>
 <channel id="FashionTVAsia.fr@SD"><display-name>FashionTV</display-name><icon src="https://i.imgur.com/ucTh9tO.png"/><url>https://indihometv.com</url></channel>
-<channel id="ATV.id@SD"><display-name>ATV</display-name><icon src="https://i.imgur.com/uHcRd1t.png"/><url>https://indihometv.com</url></channel>
-<channel id="CartoonNetworkAsia.sg@SD"><display-name>Cartoon Network</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/><url>https://indihometv.com</url></channel>
 <channel id="EuronewsEnglish.fr@SD"><display-name>Euronews</display-name><icon src="https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png"/><url>https://indihometv.com</url></channel>
 <channel id="DW.de@English"><display-name>DW (English)</display-name><icon src="https://i.imgur.com/8MRNFb9.png"/><url>https://indihometv.com</url></channel>
-<channel id="Cartoonito.uk@SD"><display-name>Cartoonito</display-name><icon src="https://i.imgur.com/B29D2s1.png"/><url>https://indihometv.com</url></channel>
 <channel id="DuniaLain.id@SD"><display-name>Dunia Lain</display-name><icon src="https://i.imgur.com/XgIuU7M.png"/><url>https://indihometv.com</url></channel>
 <channel id="DuniaAnak.id@SD"><display-name>Dunia anak</display-name><icon src="https://i.imgur.com/pI76ufZ.png"/><url>https://indihometv.com</url></channel>
-<channel id="AnimalPlanetSoutheastAsia.sg@SD"><display-name>Animal Planet</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="ArirangTV.kr@SD"><display-name>Arirang</display-name><icon src="https://i.imgur.com/Asu5pE9.png"/><url>https://indihometv.com</url></channel>
-<channel id="ROCKExtreme.sg@SD"><display-name>Rock Action</display-name><icon src="https://i.imgur.com/3U1JpHm.png"/><url>https://indihometv.com</url></channel>
 <channel id="DreamWorksChannelAsia.us@SD"><display-name>Dreamworks</display-name><icon src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/55/960px-DreamWorks_Animation_SKG_logo_with_fishing_boy.png/330px-1024px-DreamWorks_Animation_SKG_logo_with_fishing_boy.png"/><url>https://indihometv.com</url></channel>
 <channel id="DiscoveryAsia.sg@SD"><display-name>Discovery Asia</display-name><icon src="https://i.imgur.com/foLICwL.png"/><url>https://indihometv.com</url></channel>
-<channel id="ROCKEntertainment.sg@SD"><display-name>Rock Entertainment</display-name><icon src="https://i.imgur.com/PWzq0aU.png"/><url>https://indihometv.com</url></channel>
 <channel id="DiscoveryChannel.id@SD"><display-name>Discovery Channel</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/><url>https://indihometv.com</url></channel>
 <channel id="DaVinciAsia.de@SD"><display-name>Da Vinci Learning</display-name><icon src="https://i.imgur.com/iBx7K1M.png"/><url>https://indihometv.com</url></channel>
-<channel id="ANTV.id@SD"><display-name>ANTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/960px-Antv_logo.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="BloombergTV.us@Asia"><display-name>Bloomberg</display-name><icon src="https://i.imgur.com/OuogLHx.png"/><url>https://indihometv.com</url></channel>
 <channel id="DAAITV.id@SD"><display-name>Daai TV</display-name><icon src="https://i.imgur.com/YC7JCHo.png"/><url>https://indihometv.com</url></channel>
 <channel id="CuriosityChannel.us@SD"><display-name>Curiosity</display-name><icon src="https://i.imgur.com/K0kZMYo.png"/><url>https://indihometv.com</url></channel>
-<channel id="BioskopIndonesia.id@SD"><display-name>Bioskop Indonesia</display-name><icon src="https://i.imgur.com/8gdyddg.png"/><url>https://indihometv.com</url></channel>
 <channel id="CrimePlusInvestigationAsia.sg@SD"><display-name>Crime Investigation</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg"/><url>https://indihometv.com</url></channel>
 <channel id="CNNInternational.us@AsiaPacific"><display-name>CNN International</display-name><icon src="https://dtil.tmsimg.com/assets/s157679_ld_h15_aa.png?lock=720x540"/><url>https://indihometv.com</url></channel>
-<channel id="tvNAsia.hk@SD"><display-name>TVN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/960px-Logo_tvN.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="Thrill.hk@SD"><display-name>Thrill</display-name><icon src="https://i.imgur.com/Y282owj.png"/><url>https://indihometv.com</url></channel>
-<channel id="RT.ru@SD"><display-name>RT</display-name><icon src="https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540"/><url>https://indihometv.com</url></channel>
-<channel id="RCTI.id@SD"><display-name>RCTI</display-name><icon src="https://i.imgur.com/iLFx8ia.png"/><url>https://indihometv.com</url></channel>
-<channel id="GTV.id@SD"><display-name>GTV</display-name><icon src="https://i.imgur.com/jjuKnYs.png"/><url>https://indihometv.com</url></channel>
-<channel id="ZeeBioskop.id@SD"><display-name>ZBioskop</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Zee_Bioskop_%282025%29.svg"/><url>https://indihometv.com</url></channel>
-<channel id="AllPlayEnt.id@SD"><display-name>AllPlay Ent</display-name><icon src="https://i.postimg.cc/K8yShFYn/1200px-All-Play-Entertainment.png"/><url>https://indihometv.com</url></channel>
-<channel id="TVRI.id@SD"><display-name>TVRI Nasional</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="tvNMoviesAsia.hk@SD"><display-name>TVN Movies</display-name><icon src="https://i.imgur.com/c4XvwO2.png"/><url>https://indihometv.com</url></channel>
-<channel id="TV5MondeAsia.fr@SD"><display-name>TV5Monde</display-name><icon src="https://i.imgur.com/FRsRXRR.png"/><url>https://indihometv.com</url></channel>
-<channel id="Trans7.id@SD"><display-name>Trans7</display-name><icon src="https://i.imgur.com/fAbGImS.png"/><url>https://indihometv.com</url></channel>
-<channel id="TawafTV.id@SD"><display-name>Tawaf TV</display-name><url>https://indihometv.com</url></channel>
-<channel id="ShenzhenTV.cn@SD"><display-name>Shenzen</display-name><icon src="https://i.imgur.com/AnZjWm4.png"/><url>https://indihometv.com</url></channel>
-<channel id="SCTV.id@SD"><display-name>SCTV</display-name><icon src="https://i.imgur.com/EMmOvnQ.png"/><url>https://indihometv.com</url></channel>
-<channel id="RodjaTV.id@SD"><display-name>Rodja TV</display-name><icon src="https://i.imgur.com/XwCeHlC.png"/><url>https://indihometv.com</url></channel>
-<channel id="PhoenixInfoNewsChannel.hk@SD"><display-name>Phoenix InfoNews</display-name><icon src="https://i.imgur.com/mt4h3VO.png"/><url>https://indihometv.com</url></channel>
-<channel id="TVRIWorld.id@SD"><display-name>TVRI World</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRIWorld.png/960px-TVRIWorld.png"/><url>https://indihometv.com</url></channel>
-<channel id="MNCTV.id@SD"><display-name>MNCTV</display-name><icon src="https://i.imgur.com/SK8pjQy.png"/><url>https://indihometv.com</url></channel>
-<channel id="WarnerTVAsia.us@SD"><display-name>Warner</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png"/><url>https://indihometv.com</url></channel>
-<channel id="UChannel.id@SD"><display-name>UChannel</display-name><icon src="https://i.imgur.com/qxkb0cy.png"/><url>https://indihometv.com</url></channel>
-<channel id="TV9Nusantara.id@SD"><display-name>TV9 NU</display-name><icon src="https://upload.wikimedia.org/wikipedia/id/e/ed/TV9_Nusantara.png"/><url>https://indihometv.com</url></channel>
-<channel id="TransTV.id@SD"><display-name>TransTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Trans_TV_2013.svg/960px-Trans_TV_2013.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="Moji.id@SD"><display-name>MOJI</display-name><icon src="https://i.imgur.com/mM9zapJ.png"/><url>https://indihometv.com</url></channel>
-<channel id="ONE.sg@SD"><display-name>SONE</display-name><icon src="https://i.imgur.com/ea0iGfA.png"/><url>https://indihometv.com</url></channel>
-<channel id="TVBSNews.tw@SD"><display-name>TVBS News</display-name><icon src="https://i.imgur.com/171lwfg.png"/><url>https://indihometv.com</url></channel>
-<channel id="StudioUniversalLatinAmerica.us@Brazil"><display-name>Studio Universal</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png"/><url>https://indihometv.com</url></channel>
-<channel id="RajawaliTV.id@SD"><display-name>Rajawali TV</display-name><icon src="https://i.imgur.com/dlsv1sl.png"/><url>https://indihometv.com</url></channel>
-<channel id="tvOne.id@SD"><display-name>TV One</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/960px-TvOne_2023.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="TLCSoutheastAsia.sg@SD"><display-name>TLC</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/960px-TLC_Logo.svg.png"/><url>https://indihometv.com</url></channel>
-<channel id="ZhejiangSatelliteTV.cn@SD"><display-name>Zhejiang</display-name><icon src="https://i.imgur.com/NFFQNhq.png"/><url>https://indihometv.com</url></channel>
-<channel id="pramborstv"><display-name>Prambors</display-name><url>https://indihometv.com</url></channel>
-<channel id="PhoenixChineseChannel.hk@SD"><display-name>Phoenix Chinese</display-name><icon src="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png"/><url>https://indihometv.com</url></channel>
+<channel id="CNNIndonesia.id@SD"><display-name>CNN Indonesia</display-name><icon src="https://i.imgur.com/l0JyOrm.png"/><url>https://indihometv.com</url></channel>
+<channel id="CNBCIndonesia.id@SD"><display-name>CNBC Indonesia</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/5/51/CNBC_Indonesia_2025.svg"/><url>https://indihometv.com</url></channel>
+<channel id="CNBCAsia.sg@SD"><display-name>CNBC Asia</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg"/><url>https://indihometv.com</url></channel>
+<channel id="CitraDangdut.id@SD"><display-name>Citra Dangdut</display-name><icon src="https://i.imgur.com/77KYgbz.png"/><url>https://indihometv.com</url></channel>
+<channel id="CinemaWorld.my@SD"><display-name>Cinema World</display-name><icon src="https://i.imgur.com/D2qNVZ7.png"/><url>https://indihometv.com</url></channel>
+<channel id="ChineseDrama.hk@SD"><display-name>Chinese Drama</display-name><icon src="https://i.imgur.com/OD1dGmg.png"/><url>https://indihometv.com</url></channel>
+<channel id="CGTNDocumentary.cn@SD"><display-name>CGTN Documentary</display-name><icon src="https://i.imgur.com/JHv0WxM.png"/><url>https://indihometv.com</url></channel>
+<channel id="CelestialMoviesIndonesia.id@SD"><display-name>Celestial Movie</display-name><icon src="https://i.imgur.com/KYP1xXZ.png"/><url>https://indihometv.com</url></channel>
+<channel id="CitraDrama.id@SD"><display-name>Citra Drama</display-name><icon src="https://i.imgur.com/lXhXwx7.png"/><url>https://indihometv.com</url></channel>
+<channel id="CCTV4Asia.cn@SD"><display-name>CCTV4</display-name><icon src="https://i.imgur.com/tWt4Wou.png"/><url>https://indihometv.com</url></channel>
+<channel id="CartoonNetworkAsia.sg@SD"><display-name>Cartoon Network</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="Cartoonito.uk@SD"><display-name>Cartoonito</display-name><icon src="https://i.imgur.com/B29D2s1.png"/><url>https://indihometv.com</url></channel>
+<channel id="ROCKExtreme.sg@SD"><display-name>Rock Action</display-name><icon src="https://i.imgur.com/3U1JpHm.png"/><url>https://indihometv.com</url></channel>
+<channel id="ROCKEntertainment.sg@SD"><display-name>Rock Entertainment</display-name><icon src="https://i.imgur.com/PWzq0aU.png"/><url>https://indihometv.com</url></channel>
+<channel id="BloombergTV.us@Asia"><display-name>Bloomberg</display-name><icon src="https://i.imgur.com/OuogLHx.png"/><url>https://indihometv.com</url></channel>
+<channel id="BioskopIndonesia.id@SD"><display-name>Bioskop Indonesia</display-name><icon src="https://i.imgur.com/8gdyddg.png"/><url>https://indihometv.com</url></channel>
+<channel id="BTV.id@SD"><display-name>BTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="SPOTV2.id@SD"><display-name>SPOTV 2</display-name><icon src="https://i.imgur.com/YD8fbTH.png"/><url>https://indihometv.com</url></channel>
+<channel id="SPOTV.id@SD"><display-name>SPOTV</display-name><icon src="https://i.imgur.com/HaoVsm5.png"/><url>https://indihometv.com</url></channel>
+<channel id="BaliTV.id@SD"><display-name>Bali TV</display-name><icon src="https://i.imgur.com/uH1Szme.png"/><url>https://indihometv.com</url></channel>
+<channel id="AXNAsia.sg@Indonesia"><display-name>AXN</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="ATV.id@SD"><display-name>ATV</display-name><icon src="https://i.imgur.com/uHcRd1t.png"/><url>https://indihometv.com</url></channel>
+<channel id="ArirangTV.kr@SD"><display-name>Arirang</display-name><icon src="https://i.imgur.com/Asu5pE9.png"/><url>https://indihometv.com</url></channel>
+<channel id="ANTV.id@SD"><display-name>ANTV</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/960px-Antv_logo.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="AntaraTV.id@SD"><display-name>Antara</display-name><icon src="https://thumbor.prod.vidiocdn.com/GZLOFeCtplhuW5-hl6yePAuO5G8=/filters:strip_icc():quality(70)/vidio-web-prod-user/uploads/user/avatar/909905/antaratv-90a879.jpg"/><url>https://indihometv.com</url></channel>
+<channel id="AniplusAsia.sg@SD"><display-name>Aniplus</display-name><icon src="https://i.imgur.com/Im3MePy.png"/><url>https://indihometv.com</url></channel>
+<channel id="AnimaxAsia.sg@SD"><display-name>Animax</display-name><icon src="https://jiotvimages.cdn.jio.com/dare_images/images/Animax.png"/><url>https://indihometv.com</url></channel>
+<channel id="AnimalPlanetSoutheastAsia.sg@SD"><display-name>Animal Planet</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/960px-2018_Animal_Planet_logo.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="QuranTV.sa@SD"><display-name>AlQuran Kareem</display-name><icon src="https://i.imgur.com/OKpxQef.jpg"/><url>https://indihometv.com</url></channel>
+<channel id="AlJazeera.qa@Arabic"><display-name>Aljazeera</display-name><icon src="https://upload.wikimedia.org/wikipedia/ms/thumb/f/f2/Aljazeera_eng.svg/500px-Aljazeera_eng.svg.png"/><url>https://indihometv.com</url></channel>
+<channel id="AsianFoodNetwork.sg@SD"><display-name>Asian Food Network</display-name><icon src="https://i.imgur.com/pux6WN8.png"/><url>https://indihometv.com</url></channel>
 <programme start="20260420173000 +0000" stop="20260420180000 +0000" channel="ABCAustralia.au@SD"><title lang="id">Planet America - Eps. 12</title></programme>
 <programme start="20260420180000 +0000" stop="20260420183000 +0000" channel="ABCAustralia.au@SD"><title lang="id">Roads Unknown India - Eps. 4</title></programme>
 <programme start="20260420183000 +0000" stop="20260420190000 +0000" channel="ABCAustralia.au@SD"><title lang="id">Movin&apos; To The Country - Eps. 3</title></programme>
@@ -5152,56 +5155,59 @@
 <programme start="20260421153000 +0000" stop="20260421160000 +0000" channel="Horee.id@SD"><title lang="id">Doby &amp; Disy</title></programme>
 <programme start="20260421160000 +0000" stop="20260421163000 +0000" channel="Horee.id@SD"><title lang="id">Supa Strikas</title></programme>
 <programme start="20260421163000 +0000" stop="20260421170000 +0000" channel="Horee.id@SD"><title lang="id">Masha &amp; The Bear</title></programme>
-<programme start="20260420170900 +0000" stop="20260420174400 +0000" channel="HorizonSports.us@SD"><title lang="id">The Outdoor Sports Show 2026 - Episode 2</title></programme>
-<programme start="20260420174400 +0000" stop="20260420174600 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Geraldine Fasnacht</title></programme>
-<programme start="20260420174600 +0000" stop="20260420180600 +0000" channel="HorizonSports.us@SD"><title lang="id">Hokkaido Japan by bike - Part 4 Eng</title></programme>
-<programme start="20260420180600 +0000" stop="20260420180800 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Michi Wohlleben</title></programme>
-<programme start="20260420180800 +0000" stop="20260420181700 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Geraldine Fasnacht</title></programme>
-<programme start="20260420181700 +0000" stop="20260420192200 +0000" channel="HorizonSports.us@SD"><title lang="id">Tour de la Provence 2026 Eng</title></programme>
-<programme start="20260420192200 +0000" stop="20260420200100 +0000" channel="HorizonSports.us@SD"><title lang="id">Nedbank Gravel Burn 2025</title></programme>
-<programme start="20260420200100 +0000" stop="20260420210800 +0000" channel="HorizonSports.us@SD"><title lang="id">Tour of Oman and Muscat Classic 2026 Eng</title></programme>
-<programme start="20260420210800 +0000" stop="20260420221300 +0000" channel="HorizonSports.us@SD"><title lang="id">Alula Tour 2026 Eng</title></programme>
-<programme start="20260420221300 +0000" stop="20260420231900 +0000" channel="HorizonSports.us@SD"><title lang="id">Santos Tour Down Under Men 2026</title></programme>
-<programme start="20260420231900 +0000" stop="20260421002000 +0000" channel="HorizonSports.us@SD"><title lang="id">Cape To Cape 2025 Eng</title></programme>
-<programme start="20260421002000 +0000" stop="20260421012500 +0000" channel="HorizonSports.us@SD"><title lang="id">One Water Race 2025 - The Film Eng</title></programme>
-<programme start="20260421012500 +0000" stop="20260421015300 +0000" channel="HorizonSports.us@SD"><title lang="id">Moana Waiwai - The Film</title></programme>
-<programme start="20260421015300 +0000" stop="20260421020500 +0000" channel="HorizonSports.us@SD"><title lang="id">SFT Wake Foil E-Foil World Cup Abu Dhabi 2025</title></programme>
-<programme start="20260421020500 +0000" stop="20260421023200 +0000" channel="HorizonSports.us@SD"><title lang="id">GWA Wingfoil World Cup Abu Dhabi 2025</title></programme>
-<programme start="20260421023200 +0000" stop="20260421023400 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Geraldine Fasnacht</title></programme>
-<programme start="20260421023400 +0000" stop="20260421030700 +0000" channel="HorizonSports.us@SD"><title lang="id">Nastro Rosa Tour 2025 Eng</title></programme>
-<programme start="20260421030700 +0000" stop="20260421031100 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Geraldine Fasnacht</title></programme>
-<programme start="20260421031100 +0000" stop="20260421034400 +0000" channel="HorizonSports.us@SD"><title lang="id">Changing Channels</title></programme>
-<programme start="20260421034400 +0000" stop="20260421035100 +0000" channel="HorizonSports.us@SD"><title lang="id">GKA Freestyle World Cup Abu Dhabi 2025</title></programme>
-<programme start="20260421035100 +0000" stop="20260421040700 +0000" channel="HorizonSports.us@SD"><title lang="id">GKA Hydrofoil Big Air World Cup Abu Dhabi 2025</title></programme>
-<programme start="20260421040700 +0000" stop="20260421041100 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Armel Le Cl ac h E</title></programme>
-<programme start="20260421041100 +0000" stop="20260421042500 +0000" channel="HorizonSports.us@SD"><title lang="id">GKA Kite-Surf World Cup Cape Verde 2026</title></programme>
-<programme start="20260421042500 +0000" stop="20260421045700 +0000" channel="HorizonSports.us@SD"><title lang="id">Inside Sailing 2026 - Episode 2</title></programme>
-<programme start="20260421045700 +0000" stop="20260421050200 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Geraldine Fasnacht</title></programme>
-<programme start="20260421050200 +0000" stop="20260421053400 +0000" channel="HorizonSports.us@SD"><title lang="id">Inside Sailing 2026 - Episode 1</title></programme>
-<programme start="20260421053400 +0000" stop="20260421060600 +0000" channel="HorizonSports.us@SD"><title lang="id">2025 ROLEX New York Yacht Club Invitational Cup</title></programme>
-<programme start="20260421060600 +0000" stop="20260421060900 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Samantha Davies</title></programme>
-<programme start="20260421060900 +0000" stop="20260421062400 +0000" channel="HorizonSports.us@SD"><title lang="id">SFT Wake Foil E-Foil World Cup Abu Dhabi 2025</title></programme>
-<programme start="20260421062400 +0000" stop="20260421081900 +0000" channel="HorizonSports.us@SD"><title lang="id">A Feather in the West</title></programme>
-<programme start="20260421081900 +0000" stop="20260421084900 +0000" channel="HorizonSports.us@SD"><title lang="id">Skiing China Exploring Altai Mountains</title></programme>
-<programme start="20260421084900 +0000" stop="20260421090600 +0000" channel="HorizonSports.us@SD"><title lang="id">Best Via Ferrata In The Dolomites Climbing Possnecker Eng</title></programme>
-<programme start="20260421090600 +0000" stop="20260421100000 +0000" channel="HorizonSports.us@SD"><title lang="id">Nine Mountains</title></programme>
-<programme start="20260421100000 +0000" stop="20260421101900 +0000" channel="HorizonSports.us@SD"><title lang="id">Margalef - Climbing</title></programme>
-<programme start="20260421101900 +0000" stop="20260421110200 +0000" channel="HorizonSports.us@SD"><title lang="id">Grand Teton Loop Eng</title></programme>
-<programme start="20260421110200 +0000" stop="20260421110800 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Sam Anthamatten</title></programme>
-<programme start="20260421110800 +0000" stop="20260421111600 +0000" channel="HorizonSports.us@SD"><title lang="id">World Rookie Freeski Finals 2025</title></programme>
-<programme start="20260421111600 +0000" stop="20260421121000 +0000" channel="HorizonSports.us@SD"><title lang="id">Nine Mountains</title></programme>
-<programme start="20260421121000 +0000" stop="20260421121600 +0000" channel="HorizonSports.us@SD"><title lang="id">56th Engadin Skimarathon</title></programme>
-<programme start="20260421121600 +0000" stop="20260421121900 +0000" channel="HorizonSports.us@SD"><title lang="id">Nendaz Backcountry Invitational 2026</title></programme>
-<programme start="20260421121900 +0000" stop="20260421122700 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Sam Anthamatten</title></programme>
-<programme start="20260421122700 +0000" stop="20260421130100 +0000" channel="HorizonSports.us@SD"><title lang="id">Trail Menorca Cami De Cavalls 2025</title></programme>
-<programme start="20260421130100 +0000" stop="20260421131700 +0000" channel="HorizonSports.us@SD"><title lang="id">Florence Marathon - We run in art Eng</title></programme>
-<programme start="20260421131700 +0000" stop="20260421135300 +0000" channel="HorizonSports.us@SD"><title lang="id">X-out Montenegro Eng</title></programme>
-<programme start="20260421135300 +0000" stop="20260421135700 +0000" channel="HorizonSports.us@SD"><title lang="id">Ungrounded Episode 3 - Meredith Edwards</title></programme>
-<programme start="20260421135700 +0000" stop="20260421145400 +0000" channel="HorizonSports.us@SD"><title lang="id">HOKA Chiang Mai Thailand by UTMB</title></programme>
-<programme start="20260421145400 +0000" stop="20260421152700 +0000" channel="HorizonSports.us@SD"><title lang="id">Raid Gallaecia 2025</title></programme>
-<programme start="20260421152700 +0000" stop="20260421155600 +0000" channel="HorizonSports.us@SD"><title lang="id">Trans Sahara Marathon 2025</title></programme>
-<programme start="20260421155600 +0000" stop="20260421162800 +0000" channel="HorizonSports.us@SD"><title lang="id">Challenge Family 2025 - Season Wrap Up Eng</title></programme>
-<programme start="20260421162800 +0000" stop="20260421180300 +0000" channel="HorizonSports.us@SD"><title lang="id">The High</title></programme>
+<programme start="20260420172000 +0000" stop="20260420175500 +0000" channel="HorizonSports.us@SD"><title lang="id">The Outdoor Sports Show 2026 - Episode 3</title></programme>
+<programme start="20260420175500 +0000" stop="20260420175700 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Geraldine Fasnacht</title></programme>
+<programme start="20260420175700 +0000" stop="20260420175900 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Michi Wohlleben</title></programme>
+<programme start="20260420175900 +0000" stop="20260420180800 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Geraldine Fasnacht</title></programme>
+<programme start="20260420180800 +0000" stop="20260420181300 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Michi Wohlleben</title></programme>
+<programme start="20260420181300 +0000" stop="20260420192000 +0000" channel="HorizonSports.us@SD"><title lang="id">Santos Tour Down Under Women 2026</title></programme>
+<programme start="20260420192000 +0000" stop="20260420202400 +0000" channel="HorizonSports.us@SD"><title lang="id">Tour de la Provence 2026 Eng</title></programme>
+<programme start="20260420202400 +0000" stop="20260420205000 +0000" channel="HorizonSports.us@SD"><title lang="id">Mediterranean Epic 2026 Eng</title></programme>
+<programme start="20260420205000 +0000" stop="20260420215100 +0000" channel="HorizonSports.us@SD"><title lang="id">Cape To Cape 2025 Eng</title></programme>
+<programme start="20260420215100 +0000" stop="20260420225600 +0000" channel="HorizonSports.us@SD"><title lang="id">Santos Tour Down Under Men 2026</title></programme>
+<programme start="20260420225600 +0000" stop="20260420233500 +0000" channel="HorizonSports.us@SD"><title lang="id">Nedbank Gravel Burn 2025</title></programme>
+<programme start="20260420233500 +0000" stop="20260421001600 +0000" channel="HorizonSports.us@SD"><title lang="id">Mediterranean Epic 2026 Eng</title></programme>
+<programme start="20260421001600 +0000" stop="20260421004800 +0000" channel="HorizonSports.us@SD"><title lang="id">2025 ROLEX New York Yacht Club Invitational Cup</title></programme>
+<programme start="20260421004800 +0000" stop="20260421005600 +0000" channel="HorizonSports.us@SD"><title lang="id">GKA Freestyle World Cup Abu Dhabi 2025</title></programme>
+<programme start="20260421005600 +0000" stop="20260421012900 +0000" channel="HorizonSports.us@SD"><title lang="id">Changing Channels</title></programme>
+<programme start="20260421012900 +0000" stop="20260421015300 +0000" channel="HorizonSports.us@SD"><title lang="id">GWA Wingfoil World Cup Abu Dhabi 2025</title></programme>
+<programme start="20260421015300 +0000" stop="20260421015800 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Geraldine Fasnacht</title></programme>
+<programme start="20260421015800 +0000" stop="20260421031300 +0000" channel="HorizonSports.us@SD"><title lang="id">All The Way Eng</title></programme>
+<programme start="20260421031300 +0000" stop="20260421032700 +0000" channel="HorizonSports.us@SD"><title lang="id">SFT Wake Foil E-Foil World Cup Abu Dhabi 2025</title></programme>
+<programme start="20260421032700 +0000" stop="20260421033000 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Geraldine Fasnacht</title></programme>
+<programme start="20260421033000 +0000" stop="20260421040200 +0000" channel="HorizonSports.us@SD"><title lang="id">Inside Sailing 2026 - Episode 2</title></programme>
+<programme start="20260421040200 +0000" stop="20260421043500 +0000" channel="HorizonSports.us@SD"><title lang="id">Inside Sailing 2026 - Episode 3</title></programme>
+<programme start="20260421043500 +0000" stop="20260421045200 +0000" channel="HorizonSports.us@SD"><title lang="id">GKA Kite-Surf World Cup Taiba - Brazil 2025</title></programme>
+<programme start="20260421045200 +0000" stop="20260421055600 +0000" channel="HorizonSports.us@SD"><title lang="id">One Water Race 2025 - The Film Eng</title></programme>
+<programme start="20260421055600 +0000" stop="20260421061200 +0000" channel="HorizonSports.us@SD"><title lang="id">GKA Kite-Surf World Cup Cape Verde 2026</title></programme>
+<programme start="20260421061200 +0000" stop="20260421061500 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Geraldine Fasnacht</title></programme>
+<programme start="20260421061500 +0000" stop="20260421062000 +0000" channel="HorizonSports.us@SD"><title lang="id">The First Second - Armel Le Cl ac h E</title></programme>
+<programme start="20260421062000 +0000" stop="20260421063600 +0000" channel="HorizonSports.us@SD"><title lang="id">Best Via Ferrata In The Dolomites Climbing Possnecker Eng</title></programme>
+<programme start="20260421063600 +0000" stop="20260421065700 +0000" channel="HorizonSports.us@SD"><title lang="id">Dark Peak Fell Runners</title></programme>
+<programme start="20260421065700 +0000" stop="20260421071600 +0000" channel="HorizonSports.us@SD"><title lang="id">Lekkarod 2026</title></programme>
+<programme start="20260421071600 +0000" stop="20260421071800 +0000" channel="HorizonSports.us@SD"><title lang="id">World Rookie Freeski Finals 2026</title></programme>
+<programme start="20260421071800 +0000" stop="20260421081600 +0000" channel="HorizonSports.us@SD"><title lang="id">A Feather in the West</title></programme>
+<programme start="20260421081600 +0000" stop="20260421083700 +0000" channel="HorizonSports.us@SD"><title lang="id">Best Via Ferrata in the Julian Alps Eng</title></programme>
+<programme start="20260421083700 +0000" stop="20260421093500 +0000" channel="HorizonSports.us@SD"><title lang="id">A Feather in the West</title></programme>
+<programme start="20260421093500 +0000" stop="20260421094200 +0000" channel="HorizonSports.us@SD"><title lang="id">Pierra Menta 2026 Ep.1</title></programme>
+<programme start="20260421094200 +0000" stop="20260421103600 +0000" channel="HorizonSports.us@SD"><title lang="id">Nine Mountains</title></programme>
+<programme start="20260421103600 +0000" stop="20260421105400 +0000" channel="HorizonSports.us@SD"><title lang="id">Summiting Mt Sneffels in Colorado Eng</title></programme>
+<programme start="20260421105400 +0000" stop="20260421111300 +0000" channel="HorizonSports.us@SD"><title lang="id">Margalef - Climbing</title></programme>
+<programme start="20260421111300 +0000" stop="20260421113400 +0000" channel="HorizonSports.us@SD"><title lang="id">Alone And Without A Guide On Mexico s Third Highest Mountain-Iztaccihuatl Eng</title></programme>
+<programme start="20260421113400 +0000" stop="20260421113900 +0000" channel="HorizonSports.us@SD"><title lang="id">Pierra Menta 2026 Ep.4</title></programme>
+<programme start="20260421113900 +0000" stop="20260421115900 +0000" channel="HorizonSports.us@SD"><title lang="id">Expedition Antarctica of extreme sports woman Caro North</title></programme>
+<programme start="20260421115900 +0000" stop="20260421120400 +0000" channel="HorizonSports.us@SD"><title lang="id">Nendaz Backcountry Invitational 2026</title></programme>
+<programme start="20260421120400 +0000" stop="20260421120800 +0000" channel="HorizonSports.us@SD"><title lang="id">56th Engadin Skimarathon</title></programme>
+<programme start="20260421120800 +0000" stop="20260421121600 +0000" channel="HorizonSports.us@SD"><title lang="id">Pierra Menta 2026 Ep.2</title></programme>
+<programme start="20260421121600 +0000" stop="20260421121800 +0000" channel="HorizonSports.us@SD"><title lang="id">World Rookie Freeski Finals 2026</title></programme>
+<programme start="20260421121800 +0000" stop="20260421122300 +0000" channel="HorizonSports.us@SD"><title lang="id">Nendaz Backcountry Invitational 2026</title></programme>
+<programme start="20260421122300 +0000" stop="20260421135900 +0000" channel="HorizonSports.us@SD"><title lang="id">The High</title></programme>
+<programme start="20260421135900 +0000" stop="20260421141700 +0000" channel="HorizonSports.us@SD"><title lang="id">Florence Marathon - We run in art Eng</title></programme>
+<programme start="20260421141700 +0000" stop="20260421151000 +0000" channel="HorizonSports.us@SD"><title lang="id">UTMB KODIAK Ultra Marathon 2025</title></programme>
+<programme start="20260421151000 +0000" stop="20260421151900 +0000" channel="HorizonSports.us@SD"><title lang="id">Ungrounded Episode 3 - Meredith Edwards</title></programme>
+<programme start="20260421151900 +0000" stop="20260421154800 +0000" channel="HorizonSports.us@SD"><title lang="id">Norcha Eng</title></programme>
+<programme start="20260421154800 +0000" stop="20260421164400 +0000" channel="HorizonSports.us@SD"><title lang="id">HOKA Chiang Mai Thailand by UTMB</title></programme>
+<programme start="20260421164400 +0000" stop="20260421172000 +0000" channel="HorizonSports.us@SD"><title lang="id">X-out Montenegro Eng</title></programme>
 <programme start="20260420173000 +0000" stop="20260420183000 +0000" channel="IDXChannel.id@SD"><title lang="id">Prime Market Highlight</title></programme>
 <programme start="20260420183000 +0000" stop="20260420193000 +0000" channel="IDXChannel.id@SD"><title lang="id">Market Review</title></programme>
 <programme start="20260420193000 +0000" stop="20260420203000 +0000" channel="IDXChannel.id@SD"><title lang="id">Market Headlines</title></programme>
@@ -5851,41 +5857,39 @@
 <programme start="20260421110000 +0000" stop="20260421130000 +0000" channel="MyKidz.id@SD"><title lang="id">Cat At The Museum</title></programme>
 <programme start="20260421130000 +0000" stop="20260421150000 +0000" channel="MyKidz.id@SD"><title lang="id">Big Trip 2</title></programme>
 <programme start="20260421150000 +0000" stop="20260421170000 +0000" channel="MyKidz.id@SD"><title lang="id">Rock Dog</title></programme>
-<programme start="20260420170000 +0000" stop="20260420190000 +0000" channel="NBATV.us@SD"><title lang="id">NBA Playback2026 SoFi Play-in Tournament Final (West)(Premiere)</title></programme>
-<programme start="20260420190000 +0000" stop="20260420193000 +0000" channel="NBATV.us@SD"><title lang="id">NBA Action S35 Eps# 26(Re-air)</title></programme>
-<programme start="20260420193000 +0000" stop="20260420203000 +0000" channel="NBATV.us@SD"><title lang="id">Postgame Show(Live-Show)</title></programme>
-<programme start="20260420203000 +0000" stop="20260420213000 +0000" channel="NBATV.us@SD"><title lang="id">Postgame Show(Re-air)</title></programme>
-<programme start="20260420213000 +0000" stop="20260420220000 +0000" channel="NBATV.us@SD"><title lang="id">Postgame Show(Re-air)</title></programme>
-<programme start="20260420220000 +0000" stop="20260420230000 +0000" channel="NBATV.us@SD"><title lang="id">Postgame Show(Live-Show)</title></programme>
-<programme start="20260420230000 +0000" stop="20260421000000 +0000" channel="NBATV.us@SD"><title lang="id">Postgame Show(Re-air)</title></programme>
-<programme start="20260421000000 +0000" stop="20260421003000 +0000" channel="NBATV.us@SD"><title lang="id">Postgame Show(Re-air)</title></programme>
-<programme start="20260421003000 +0000" stop="20260421013000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame (Live-Show)</title></programme>
-<programme start="20260421013000 +0000" stop="20260421023000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame</title></programme>
-<programme start="20260421023000 +0000" stop="20260421030000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame</title></programme>
-<programme start="20260421030000 +0000" stop="20260421040000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame (Live-Show)</title></programme>
-<programme start="20260421040000 +0000" stop="20260421050000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame</title></programme>
-<programme start="20260421050000 +0000" stop="20260421053000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Premiere)</title></programme>
-<programme start="20260421053000 +0000" stop="20260421060000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421060000 +0000" stop="20260421063000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421063000 +0000" stop="20260421070000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421070000 +0000" stop="20260421073000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421073000 +0000" stop="20260421080000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421080000 +0000" stop="20260421083000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421083000 +0000" stop="20260421090000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421090000 +0000" stop="20260421093000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421093000 +0000" stop="20260421100000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421100000 +0000" stop="20260421103000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421103000 +0000" stop="20260421110000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421110000 +0000" stop="20260421113000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421113000 +0000" stop="20260421120000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421120000 +0000" stop="20260421123000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421123000 +0000" stop="20260421130000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421130000 +0000" stop="20260421133000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421133000 +0000" stop="20260421140000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421140000 +0000" stop="20260421143000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421143000 +0000" stop="20260421150000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421150000 +0000" stop="20260421153000 +0000" channel="NBATV.us@SD"><title lang="id">Everything You Missed: Nightly Recap(Re-air)</title></programme>
-<programme start="20260421153000 +0000" stop="20260421173000 +0000" channel="NBATV.us@SD"><title lang="id">NBA Playback2026 1st Rd Game 1TBD(Premiere)</title></programme>
+<programme start="20260420170000 +0000" stop="20260420190000 +0000" channel="NBATV.us@SD"><title lang="id">NBA Playback2026 NBA Playoffs Teams TBD1st Game(Premiere)</title></programme>
+<programme start="20260420190000 +0000" stop="20260420200000 +0000" channel="NBATV.us@SD"><title lang="id">NBA Shot Clock: Games of the Night4/19(Premiere)</title></programme>
+<programme start="20260420200000 +0000" stop="20260420220000 +0000" channel="NBATV.us@SD"><title lang="id">NBA Playback2026 NBA Playoffs Teams TBD2nd Game(Premiere)</title></programme>
+<programme start="20260420220000 +0000" stop="20260420223000 +0000" channel="NBATV.us@SD"><title lang="id">Chasing History: Playoff Preview</title></programme>
+<programme start="20260420223000 +0000" stop="20260420233000 +0000" channel="NBATV.us@SD"><title lang="id">Enjoy the NBA Trivia Show(Re-air)</title></programme>
+<programme start="20260420233000 +0000" stop="20260421003000 +0000" channel="NBATV.us@SD"><title lang="id">NBA Shot Clock: Games of the Night4/19(Re-air)</title></programme>
+<programme start="20260421003000 +0000" stop="20260421013000 +0000" channel="NBATV.us@SD"><title lang="id">Basketcast Eps# 76(Re-air)</title></programme>
+<programme start="20260421013000 +0000" stop="20260421023000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame Toronto vs Cleveland Game 2(Live-Show)</title></programme>
+<programme start="20260421023000 +0000" stop="20260421033000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame Atlanta vs New York Game 2(Live-Show)</title></programme>
+<programme start="20260421033000 +0000" stop="20260421040000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame Toronto vs Cleveland Game 2(Re-air)</title></programme>
+<programme start="20260421040000 +0000" stop="20260421043000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame (cont)Toronto vs Cleveland Game 2</title></programme>
+<programme start="20260421043000 +0000" stop="20260421050000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame Atlanta vs New York Game 2(Re-air)</title></programme>
+<programme start="20260421050000 +0000" stop="20260421060000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame Minnesota vs Denver Game 2(Live-Show)</title></programme>
+<programme start="20260421060000 +0000" stop="20260421070000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Postgame Minnesota vs Denver Game 2</title></programme>
+<programme start="20260421070000 +0000" stop="20260421073000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Live-Show)</title></programme>
+<programme start="20260421073000 +0000" stop="20260421080000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421080000 +0000" stop="20260421083000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421083000 +0000" stop="20260421090000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421090000 +0000" stop="20260421093000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421093000 +0000" stop="20260421100000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421100000 +0000" stop="20260421103000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421103000 +0000" stop="20260421110000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421110000 +0000" stop="20260421113000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421113000 +0000" stop="20260421120000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421120000 +0000" stop="20260421123000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421123000 +0000" stop="20260421130000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421130000 +0000" stop="20260421133000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421133000 +0000" stop="20260421140000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421140000 +0000" stop="20260421143000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421143000 +0000" stop="20260421150000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421150000 +0000" stop="20260421153000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421153000 +0000" stop="20260421160000 +0000" channel="NBATV.us@SD"><title lang="id">The Association: Post Up(Re-air)</title></programme>
+<programme start="20260421160000 +0000" stop="20260421170000 +0000" channel="NBATV.us@SD"><title lang="id">Basketcast Eps# 77(Premiere)</title></programme>
 <programme start="20260420220000 +0000" stop="20260421003800 +0000" channel="newtvcomprehensive"><title lang="id">News 30&apos;</title></programme>
 <programme start="20260421003800 +0000" stop="20260421010500 +0000" channel="newtvcomprehensive"><title lang="id">Remembering Nostalgia: Above The Lintel</title></programme>
 <programme start="20260421010500 +0000" stop="20260421013300 +0000" channel="newtvcomprehensive"><title lang="id">Remembering Nostalgia: Above The Lintel</title></programme>
@@ -6455,6 +6459,21 @@
 <programme start="20260421153000 +0000" stop="20260421160000 +0000" channel="RajawaliTV.id@SD"><title lang="id">Lensa Indonesia Malam</title></programme>
 <programme start="20260421160000 +0000" stop="20260421163000 +0000" channel="RajawaliTV.id@SD"><title lang="id">Ijin, Ndan !</title></programme>
 <programme start="20260421163000 +0000" stop="20260421170000 +0000" channel="RajawaliTV.id@SD"><title lang="id">STB (Sangat Tidak Biasa)</title></programme>
+<programme start="20260420170000 +0000" stop="20260420190000 +0000" channel="RCTI.id@SD"><title lang="id">Preman Pensiun</title></programme>
+<programme start="20260420190000 +0000" stop="20260420223000 +0000" channel="RCTI.id@SD"><title lang="id">Preman Pensiun</title></programme>
+<programme start="20260420223000 +0000" stop="20260420233000 +0000" channel="RCTI.id@SD"><title lang="id">Penyejuk Hati</title></programme>
+<programme start="20260420233000 +0000" stop="20260421010000 +0000" channel="RCTI.id@SD"><title lang="id">Upin Ipin</title></programme>
+<programme start="20260421010000 +0000" stop="20260421021500 +0000" channel="RCTI.id@SD"><title lang="id">Entong</title></programme>
+<programme start="20260421021500 +0000" stop="20260421033000 +0000" channel="RCTI.id@SD"><title lang="id">Mega Film TV</title></programme>
+<programme start="20260421033000 +0000" stop="20260421043000 +0000" channel="RCTI.id@SD"><title lang="id">Silet</title></programme>
+<programme start="20260421043000 +0000" stop="20260421050000 +0000" channel="RCTI.id@SD"><title lang="id">Seputar iNews Siang</title></programme>
+<programme start="20260421050000 +0000" stop="20260421063000 +0000" channel="RCTI.id@SD"><title lang="id">Dunia Terbalik</title></programme>
+<programme start="20260421063000 +0000" stop="20260421090000 +0000" channel="RCTI.id@SD"><title lang="id">Si Doel Anak Sekolahan</title></programme>
+<programme start="20260421090000 +0000" stop="20260421103000 +0000" channel="RCTI.id@SD"><title lang="id">My Dear Guardian</title></programme>
+<programme start="20260421103000 +0000" stop="20260421120000 +0000" channel="RCTI.id@SD"><title lang="id">Cerita Suatu Ketika</title></programme>
+<programme start="20260421120000 +0000" stop="20260421133000 +0000" channel="RCTI.id@SD"><title lang="id">Terikat Janji</title></programme>
+<programme start="20260421133000 +0000" stop="20260421150000 +0000" channel="RCTI.id@SD"><title lang="id">Turun Ranjang</title></programme>
+<programme start="20260421150000 +0000" stop="20260421170000 +0000" channel="RCTI.id@SD"><title lang="id">Microdrama+</title></programme>
 <programme start="20260420173000 +0000" stop="20260420181500 +0000" channel="ROCKEntertainment.sg@SD"><title lang="id">Law &amp; Order: Special Victims Unit S27 - Eps. 17</title></programme>
 <programme start="20260420181500 +0000" stop="20260420190000 +0000" channel="ROCKEntertainment.sg@SD"><title lang="id">Law &amp; Order: Special Victims Unit S27 - Eps. 18</title></programme>
 <programme start="20260420190000 +0000" stop="20260420194500 +0000" channel="ROCKEntertainment.sg@SD"><title lang="id">NCIS S22 - Eps. 11</title></programme>
@@ -6723,6 +6742,24 @@
 <programme start="20260421153000 +0000" stop="20260421160000 +0000" channel="TawafTV.id@SD"><title lang="id">Hikayat</title></programme>
 <programme start="20260421160000 +0000" stop="20260421163000 +0000" channel="TawafTV.id@SD"><title lang="id">Obrolan Seputar Masjid</title></programme>
 <programme start="20260421163000 +0000" stop="20260421170000 +0000" channel="TawafTV.id@SD"><title lang="id">Jelajah Surau</title></programme>
+<programme start="20260420172000 +0000" stop="20260420185000 +0000" channel="Thrill.hk@SD"><title lang="id">Night Watch</title></programme>
+<programme start="20260420185000 +0000" stop="20260420200500 +0000" channel="Thrill.hk@SD"><title lang="id">The Case of Disappearances</title></programme>
+<programme start="20260420200500 +0000" stop="20260420210000 +0000" channel="Thrill.hk@SD"><title lang="id">Sinister</title></programme>
+<programme start="20260420210000 +0000" stop="20260420223500 +0000" channel="Thrill.hk@SD"><title lang="id">Mama Ghost</title></programme>
+<programme start="20260420223500 +0000" stop="20260421000000 +0000" channel="Thrill.hk@SD"><title lang="id">Chop Chop</title></programme>
+<programme start="20260421000000 +0000" stop="20260421012000 +0000" channel="Thrill.hk@SD"><title lang="id">Zombie Island</title></programme>
+<programme start="20260421012000 +0000" stop="20260421025000 +0000" channel="Thrill.hk@SD"><title lang="id">Night Watch</title></programme>
+<programme start="20260421025000 +0000" stop="20260421040500 +0000" channel="Thrill.hk@SD"><title lang="id">The Case of Disappearances</title></programme>
+<programme start="20260421040500 +0000" stop="20260421050000 +0000" channel="Thrill.hk@SD"><title lang="id">Sinister</title></programme>
+<programme start="20260421050000 +0000" stop="20260421063500 +0000" channel="Thrill.hk@SD"><title lang="id">Mama Ghost</title></programme>
+<programme start="20260421063500 +0000" stop="20260421080000 +0000" channel="Thrill.hk@SD"><title lang="id">Chop Chop</title></programme>
+<programme start="20260421080000 +0000" stop="20260421092000 +0000" channel="Thrill.hk@SD"><title lang="id">Zombie Island</title></programme>
+<programme start="20260421092000 +0000" stop="20260421105000 +0000" channel="Thrill.hk@SD"><title lang="id">Night Watch</title></programme>
+<programme start="20260421105000 +0000" stop="20260421120500 +0000" channel="Thrill.hk@SD"><title lang="id">The Case of Disappearances</title></programme>
+<programme start="20260421120500 +0000" stop="20260421130000 +0000" channel="Thrill.hk@SD"><title lang="id">Sinister</title></programme>
+<programme start="20260421130000 +0000" stop="20260421143500 +0000" channel="Thrill.hk@SD"><title lang="id">Waning Moon</title></programme>
+<programme start="20260421143500 +0000" stop="20260421155500 +0000" channel="Thrill.hk@SD"><title lang="id">Impermanence</title></programme>
+<programme start="20260421155500 +0000" stop="20260421172000 +0000" channel="Thrill.hk@SD"><title lang="id">Behave</title></programme>
 <programme start="20260420173500 +0000" stop="20260420183000 +0000" channel="TLCSoutheastAsia.sg@SD"><title lang="id">Crack Addicts S1 - Eps. 3</title></programme>
 <programme start="20260420183000 +0000" stop="20260420192500 +0000" channel="TLCSoutheastAsia.sg@SD"><title lang="id">Take My Tumor S1 - Eps. 3</title></programme>
 <programme start="20260420192500 +0000" stop="20260420202000 +0000" channel="TLCSoutheastAsia.sg@SD"><title lang="id">The Kitchen S34 - Eps. 10</title></programme>
